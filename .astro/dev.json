@@ -1,0 +1,26 @@
+{
+	"pid": 24648,
+	"port": 4321,
+	"url": "http://localhost:4321",
+	"urls": {
+		"local": [
+			"http://localhost:4321/"
+		],
+		"network": [
+			"http://26.191.88.254:4321/",
+			"http://169.254.83.107:4321/",
+			"http://192.168.6.1:4321/",
+			"http://192.168.8.1:4321/",
+			"http://192.168.2.102:4321/"
+		],
+		"networkInterfaceNames": [
+			"Radmin VPN",
+			"Tailscale",
+			"VMware Network Adapter VMnet1",
+			"VMware Network Adapter VMnet8",
+			"WLAN"
+		]
+	},
+	"background": false,
+	"startedAt": "2026-08-30T11:38:21.037Z"
+}

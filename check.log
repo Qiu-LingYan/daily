@@ -1,0 +1,4560 @@
+2026-08-30T11:03:41.412Z astro:cli --verbose flag enabled! Enabling: DEBUG="astro:*,vite:*"
+2026-08-30T11:03:41.414Z astro:cli Tip: Set the DEBUG env variable directly for more control. Example: "DEBUG=astro:*,vite:* astro build".
+2026-08-30T11:03:42.442Z astro:telemetry [notify] last notified on 1788087748337
+2026-08-30T11:03:46.503Z vite:env loading env files: [
+  'C:/Users/92760/Desktop/githubdailyblog/.env',
+  'C:/Users/92760/Desktop/githubdailyblog/.env.local',
+  'C:/Users/92760/Desktop/githubdailyblog/.env.production',
+  'C:/Users/92760/Desktop/githubdailyblog/.env.production.local'
+]
+2026-08-30T11:03:46.505Z vite:env env files loaded in 6.30ms
+2026-08-30T11:03:46.511Z vite:env using resolved env: {
+  ALLUSERSPROFILE: 'C:\\ProgramData',
+  APPDATA: 'C:\\Users\\92760\\AppData\\Roaming',
+  'asl.log': 'Destination=file',
+  ChocolateyInstall: 'C:\\ProgramData\\chocolatey',
+  ChocolateyLastPathUpdate: '133961652260054095',
+  CHROME_CRASHPAD_PIPE_NAME: '\\\\.\\pipe\\crashpad_21004_LRJHTIMNYWXNGMUL',
+  COLOR: '0',
+  COMMONPROGRAMFILES: 'C:\\Program Files\\Common Files',
+  'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files',
+  CommonProgramW6432: 'C:\\Program Files\\Common Files',
+  COMPUTERNAME: 'HP-PROBOOK',
+  COMSPEC: 'C:\\WINDOWS\\system32\\cmd.exe',
+  CPOLAR_HOME: 'C:\\Program Files\\cpolar\\',
+  DEBUG: 'astro:*,vite:*',
+  DriverData: 'C:\\Windows\\System32\\Drivers\\DriverData',
+  EDITOR: 'C:\\WINDOWS\\notepad.exe',
+  EFC_10304_1262719628: '1',
+  EFC_10304_1592913036: '1',
+  EFC_10304_2283032206: '1',
+  EFC_10304_2775293581: '1',
+  EFC_10304_2946480783: '1',
+  EFC_10304_3789132940: '1',
+  EFC_10304_4126798990: '1',
+  EXEPATH: 'E:\\Git\\bin',
+  FPS_BROWSER_APP_PROFILE_STRING: 'Internet Explorer',
+  FPS_BROWSER_USER_PROFILE_STRING: 'Default',
+  GIT_EDITOR: 'true',
+  HOME: 'C:\\Users\\92760',
+  HOMEDRIVE: 'C:',
+  HOMEPATH: '\\Users\\92760',
+  INIT_CWD: 'C:\\Users\\92760\\Desktop\\githubdailyblog',
+  LANG: 'C.UTF-8',
+  LC_CTYPE: 'C.UTF-8',
+  LOCALAPPDATA: 'C:\\Users\\92760\\AppData\\Local',
+  LOGONSERVER: '\\\\HP-PROBOOK',
+  MSYSTEM: 'MINGW64',
+  MULTIPASS_STORAGE: 'E:\\MultipassData',
+  NODE: 'E:\\nodejs\\node.exe',
+  NODE_ENV: 'production',
+  npm_command: 'exec',
+  npm_config_cache: 'C:\\Users\\92760\\AppData\\Local\\npm-cache',
+  npm_config_globalconfig: 'C:\\Users\\92760\\AppData\\Roaming\\npm\\etc\\npmrc',
+  npm_config_global_prefix: 'C:\\Users\\92760\\AppData\\Roaming\\npm',
+  npm_config_init_module: 'C:\\Users\\92760\\.npm-init.js',
+  npm_config_local_prefix: 'C:\\Users\\92760\\Desktop\\githubdailyblog',
+  npm_config_node_gyp: 'E:\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js',
+  npm_config_noproxy: '',
+  npm_config_npm_version: '10.9.2',
+  npm_config_prefix: 'C:\\Users\\92760\\AppData\\Roaming\\npm',
+  npm_config_userconfig: 'C:\\Users\\92760\\.npmrc',
+  npm_config_user_agent: 'npm/10.9.2 node/v22.17.0 win32 x64 workspaces/false',
+  npm_execpath: 'E:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+  npm_lifecycle_event: 'npx',
+  npm_lifecycle_script: 'astro',
+  npm_node_execpath: 'E:\\nodejs\\node.exe',
+  npm_package_json: 'C:\\Users\\92760\\Desktop\\githubdailyblog\\package.json',
+  npm_package_name: 'github-daily-blog',
+  NUMBER_OF_PROCESSORS: '12',
+  OneDrive: 'C:\\Users\\92760\\OneDrive',
+  OnlineServices: 'Online Services',
+  OS: 'Windows_NT',
+  PATH: 'C:\\Users\\92760\\Desktop\\githubdailyblog\\node_modules\\.bin;C:\\Users\\92760\\Desktop\\githubdailyblog\\node_modules\\.bin;C:\\Users\\92760\\Desktop\\node_modules\\.bin;C:\\Users\\92760\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;E:\\nodejs\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Users\\92760\\bin;E:\\Git\\mingw64\\bin;E:\\Git\\usr\\local\\bin;E:\\Git\\usr\\bin;E:\\Git\\usr\\bin;E:\\Git\\mingw64\\bin;E:\\Git\\usr\\bin;C:\\Users\\92760\\bin;C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin;C:\\Users\\92760\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0;C:\\windows\\System32\\OpenSSH;C:\\Program Files\\dotnet;C:\\Program Files\\Tailscale;C:\\Users\\92760\\AppData\\Local\\Programs\\Python\\Python312\\Scripts;C:\\Users\\92760\\AppData\\Local\\Programs\\Python\\Python312;C:\\Users\\92760\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\adbtools;C:\\Users\\92760\\.dotnet\\tools;C:\\users\\92760\\.local\\bin;C:\\Program Files\\cpolar;C:\\Users\\92760\\.cache\\lm-studio\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;E:\\Git\\cmd;E:\\nodejs;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\GitHub CLI;C:\\Users\\92760\\AppData\\Local\\Programs\\Python\\Python311\\Scripts;C:\\Users\\92760\\AppData\\Local\\Programs\\Python\\Python311;E:\\Trae CN\\bin;C:\\Users\\92760\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\92760\\AppData\\Roaming\\npm;C:\\Users\\92760\\AppData\\Local\\Microsoft\\WinGet\\Links;C:\\Users\\92760\\AppData\\Local\\Python\\bin;E:\\miniconda\\Scripts;E:\\ZCode\\resources\\tools\\ripgrep;E:\\ZCode\\resources\\tools\\ugrep;E:\\Git\\usr\\bin\\vendor_perl;E:\\Git\\usr\\bin\\core_perl',
+  PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+  platformcode: 'AN',
+  PLINK_PROTOCOL: 'ssh',
+  PROCESSOR_ARCHITECTURE: 'AMD64',
+  PROCESSOR_IDENTIFIER: 'AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD',
+  PROCESSOR_LEVEL: '25',
+  PROCESSOR_REVISION: '5000',
+  ProgramData: 'C:\\ProgramData',
+  PROGRAMFILES: 'C:\\Program Files',
+  'ProgramFiles(x86)': 'C:\\Program Files (x86)',
+  ProgramW6432: 'C:\\Program Files',
+  PROMPT: '$P$G',
+  PSModulePath: 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules',
+  PUBLIC: 'C:\\Users\\Public',
+  PWD: 'C:/Users/92760/Desktop/githubdailyblog',
+  PyArmor: 'C:\\Users\\92760\\AppData\\Roaming\\Python\\Python313\\Scripts',
+  PYTHONIOENCODING: 'utf-8',
+  PYTHONUTF8: '1',
+  RegionCode: 'APJ',
+  SESSIONNAME: 'Console',
+  SHELL: 'E:\\Git\\usr\\bin\\bash.exe',
+  SHLVL: '2',
+  SYSTEMDRIVE: 'C:',
+  SYSTEMROOT: 'C:\\WINDOWS',
+  TEMP: 'C:\\Users\\92760\\AppData\\Local\\Temp',
+  TERM: 'xterm-256color',
+  TMP: 'C:\\Users\\92760\\AppData\\Local\\Temp',
+  USERDOMAIN: 'HP-PROBOOK',
+  USERDOMAIN_ROAMINGPROFILE: 'HP-PROBOOK',
+  USERNAME: '92760',
+  USERPROFILE: 'C:\\Users\\92760',
+  WINDIR: 'C:\\WINDOWS',
+  WXDRIVE_START_ARGS: '--wxdrive-setting=0 --disable-gpu --disable-software-rasterizer --enable-features=NetworkServiceInProcess',
+  ZAI_BUSINESS_BASE_URL: 'https://api.z.ai',
+  ZAI_OAUTH_CLIENT_ID: 'client_P8X5CMWmlaRO9gyO-KSqtg',
+  ZAI_OAUTH_ORIGIN: 'https://chat.z.ai',
+  ZCODE_APP_VERSION: '3.10.1',
+  ZCODE_BASE_URL: 'https://zcode.z.ai',
+  ZCODE_BUILD_COMMIT_ID: '5712af2e',
+  ZCODE_CUA_GRAY_ENABLED: '1',
+  ZCODE_DESKTOP_CONTEXT_PROMPT_ENABLED: '1',
+  ZCODE_ENV: 'production',
+  ZCODE_PROCESS_LABEL: 'local-1',
+  ZCODE_RG_BINARY: 'E:\\ZCode\\resources\\tools\\ripgrep\\rg.exe',
+  ZCODE_RUNTIME_ENV: 'production',
+  ZCODE_UGREP_BINARY: 'E:\\ZCode\\resources\\tools\\ugrep\\ugrep.exe',
+  ZCODE_WINDOWS_APP_INSTALL_DIR: 'E:\\ZCode',
+  _: 'E:/nodejs/node.exe',
+  __COMPAT_LAYER: 'DetectorsAppHealth HighDpiAware'
+}
+2026-08-30T11:03:46.514Z astro:update Re-calculate routes
+2026-08-30T11:03:46.601Z vite:env loading env files: [
+  'C:/Users/92760/Desktop/githubdailyblog/.env',
+  'C:/Users/92760/Desktop/githubdailyblog/.env.local',
+  'C:/Users/92760/Desktop/githubdailyblog/.env.production',
+  'C:/Users/92760/Desktop/githubdailyblog/.env.production.local'
+]
+2026-08-30T11:03:46.603Z vite:env env files loaded in 1.71ms
+2026-08-30T11:03:46.606Z vite:env using resolved env: {}
+2026-08-30T11:03:46.686Z vite:config using resolved config: {
+  configFile: undefined,
+  mode: 'production',
+  cacheDir: 'C:/Users/92760/Desktop/githubdailyblog/node_modules/.vite',
+  clearScreen: false,
+  customLogger: {
+    hasWarned: false,
+    info: [Function: info],
+    warn: [Function: warn],
+    warnOnce: [Function: warnOnce],
+    error: [Function: error],
+    clearScreen: [Function: clearScreen],
+    hasErrorLogged: [Function: hasErrorLogged]
+  },
+  appType: 'custom',
+  plugins: [
+    'vite:optimized-deps',
+    'vite:watch-package-data',
+    'vite:pre-alias',
+    'alias',
+    'virtual:astro:manifest',
+    'astro:plugin-renderers',
+    'astro:static-paths',
+    'astro:build:css-hmr',
+    'astro:build',
+    'astro-env-plugin',
+    'astro:markdown',
+    'astro:head-metadata',
+    'astro-content-virtual-mod-plugin',
+    'astro:content-asset-propagation',
+    'astro:assets:esm',
+    'astro:vite-plugin-file-url',
+    'astro:i18n',
+    'astro:actions',
+    'virtual:astro:session-driver',
+    'astro:session-provider',
+    'astro:container',
+    'vite:modulepreload-polyfill',
+    'vite:resolve-dev',
+    'vite:resolve-builtin:get-environment',
+    'vite:resolve-builtin',
+    'vite:html-inline-proxy',
+    'vite:css',
+    'builtin:oxc-runtime',
+    'vite:oxc',
+    'builtin:vite-json',
+    'vite:wasm-helper',
+    'vite:worker',
+    'vite:asset',
+    'astro:watcher-max-listeners',
+    'astro:routes',
+    'astro-manifest-plugin',
+    'astro:environment',
+    '@astro/plugin-page',
+    'astro:build:normal',
+    'astro:scripts',
+    'astro:app',
+    'astro:server-app',
+    '@astro/plugin-fetchable',
+    'virtual:astro:dev-css',
+    'virtual:astro:dev-css-all',
+    'astro:adapter-config',
+    'astro:html',
+    'astro:integration-container',
+    'astro:content-imports',
+    '@astro/plugin-middleware',
+    'astro:assets',
+    'astro:fonts',
+    'astro:image-styles',
+    'astro:prefetch',
+    'astro:transitions',
+    'astro:dev-toolbar',
+    'astro:chromedevtools',
+    'astro:vite-plugin-env',
+    'vite:define',
+    'vite:css-post',
+    'vite:build-html',
+    'vite:worker-import-meta-url',
+    'vite:asset-import-meta-url',
+    'vite:dynamic-import-vars',
+    'vite:import-glob',
+    '@astro/plugin-pages',
+    'astro:scripts:page-ssr',
+    'astro:server-islands',
+    'astro:hmr-reload',
+    'vite:client-inject',
+    'vite:css-analysis',
+    'vite:import-analysis'
+  ],
+  publicDir: 'C:/Users/92760/Desktop/githubdailyblog/public',
+  root: 'C:/Users/92760/Desktop/githubdailyblog',
+  envPrefix: 'PUBLIC_',
+  define: {
+    'import.meta.env.SITE': 'undefined',
+    'import.meta.env.BASE_URL': '"/"',
+    'import.meta.env.ASSETS_PREFIX': 'undefined'
+  },
+  server: {
+    port: 5173,
+    strictPort: false,
+    host: undefined,
+    allowedHosts: [],
+    https: undefined,
+    open: false,
+    proxy: undefined,
+    cors: {
+      origin: /^https?:\/\/(?:(?:[^:]+\.)?localhost|127\.0\.0\.1|\[::1\])(?::\d+)?$/
+    },
+    headers: {},
+    warmup: { clientFiles: [], ssrFiles: [] },
+    middlewareMode: true,
+    fs: {
+      strict: true,
+      deny: [
+        '.env',
+        '.env.*',
+        '*.{crt,pem,key,p12,pfx,cer,der}',
+        '.npmrc',
+        '.yarnrc.yml',
+        '**/.git/**'
+      ],
+      allow: [ 'C:/Users/92760/Desktop/githubdailyblog' ]
+    },
+    preTransformRequests: true,
+    perEnvironmentStartEndDuringDev: false,
+    perEnvironmentWatchChangeDuringDev: false,
+    forwardConsole: { enabled: false, unhandledErrors: false, logLevels: [] },
+    sourcemapIgnoreList: [Function: isInNodeModules],
+    hmr: false,
+    watch: { ignored: [ '**' ] },
+    ws: false
+  },
+  resolve: {
+    externalConditions: [ 'node', 'module-sync' ],
+    extensions: [
+      '.mjs',  '.js',
+      '.mts',  '.ts',
+      '.jsx',  '.tsx',
+      '.json'
+    ],
+    dedupe: [],
+    noExternal: [],
+    external: [],
+    preserveSymlinks: false,
+    tsconfigPaths: true,
+    alias: [
+      { find: 'randombytes', replacement: 'randombytes/browser' },
+      {
+        find: /^astro$/,
+        replacement: 'C:\\Users\\92760\\Desktop\\githubdailyblog\\node_modules\\astro\\dist\\types\\public\\index.js'
+      },
+      {
+        find: 'astro:middleware',
+        replacement: 'astro/virtual-modules/middleware.js'
+      },
+      { find: 'astro:schema', replacement: 'astro/zod' },
+      { find: 'astro:components', replacement: 'astro/components' },
+      {
+        find: /^\/?@vite\/env/,
+        replacement: '/@fs/C:/Users/92760/Desktop/githubdailyblog/node_modules/vite/dist/client/env.mjs'
+      },
+      {
+        find: /^\/?@vite\/client/,
+        replacement: '/@fs/C:/Users/92760/Desktop/githubdailyblog/node_modules/vite/dist/client/client.mjs'
+      }
+    ],
+    mainFields: [ 'browser', 'module', 'jsnext:main', 'jsnext' ],
+    conditions: [ 'module', 'browser', 'development|production', 'astro' ],
+    builtins: []
+  },
+  build: {
+    target: [ 'chrome111', 'edge111', 'firefox114', 'safari16.4', 'ios16.4' ],
+    polyfillModulePreload: true,
+    modulePreload: { polyfill: true },
+    outDir: 'dist',
+    assetsDir: '_astro',
+    assetsInlineLimit: 4096,
+    sourcemap: false,
+    terserOptions: {},
+    chunkImportMap: false,
+    rolldownOptions: { platform: 'node' },
+    commonjsOptions: { include: [ /node_modules/ ], extensions: [ '.js', '.cjs' ] },
+    dynamicImportVarsOptions: { exclude: [ /node_modules/ ] },
+    write: true,
+    emptyOutDir: null,
+    copyPublicDir: true,
+    license: false,
+    manifest: false,
+    lib: false,
+    ssrManifest: false,
+    ssrEmitAssets: false,
+    reportCompressedSize: true,
+    chunkSizeWarningLimit: 500,
+    watch: null,
+    cssCodeSplit: true,
+    minify: 'oxc',
+    rollupOptions: [Getter/Setter],
+    ssr: false,
+    emitAssets: false,
+    createEnvironment: [Function: createEnvironment],
+    cssTarget: [ 'chrome111', 'edge111', 'firefox114', 'safari16.4', 'ios16.4' ],
+    cssMinify: true
+  },
+  environments: {
+    client: {
+      input: undefined,
+      define: {
+        'import.meta.env.SITE': 'undefined',
+        'import.meta.env.BASE_URL': '"/"',
+        'import.meta.env.ASSETS_PREFIX': 'undefined'
+      },
+      resolve: {
+        externalConditions: [ 'node', 'module-sync' ],
+        extensions: [
+          '.mjs',  '.js',
+          '.mts',  '.ts',
+          '.jsx',  '.tsx',
+          '.json'
+        ],
+        dedupe: [ 'astro' ],
+        noExternal: [
+          'astro',
+          'astro/components',
+          '@nanostores/preact',
+          '@fontsource/*',
+          'neotraverse'
+        ],
+        external: [],
+        preserveSymlinks: false,
+        tsconfigPaths: true,
+        alias: [
+          { find: 'randombytes', replacement: 'randombytes/browser' },
+          {
+            find: /^astro$/,
+            replacement: 'C:\\Users\\92760\\Desktop\\githubdailyblog\\node_modules\\astro\\dist\\types\\public\\index.js'
+          },
+          {
+            find: 'astro:middleware',
+            replacement: 'astro/virtual-modules/middleware.js'
+          },
+          { find: 'astro:schema', replacement: 'astro/zod' },
+          { find: 'astro:components', replacement: 'astro/components' },
+          {
+            find: /^\/?@vite\/env/,
+            replacement: '/@fs/C:/Users/92760/Desktop/githubdailyblog/node_modules/vite/dist/client/env.mjs'
+          },
+          {
+            find: /^\/?@vite\/client/,
+            replacement: '/@fs/C:/Users/92760/Desktop/githubdailyblog/node_modules/vite/dist/client/client.mjs'
+          }
+        ],
+        mainFields: [ 'browser', 'module', 'jsnext:main', 'jsnext' ],
+        conditions: [ 'module', 'browser', 'development|production', 'astro' ],
+        builtins: []
+      },
+      keepProcessEnv: false,
+      consumer: 'client',
+      optimizeDeps: {
+        include: [
+          'astro > aria-query',
+          'astro > axobject-query',
+          'astro > html-escaper',
+          'astro/runtime/client/dev-toolbar/entrypoint.js'
+        ],
+        exclude: [
+          'astro:*',
+          'virtual:astro:*',
+          'astro/virtual-modules/prefetch.js'
+        ],
+        needsInterop: [],
+        rolldownOptions: { resolve: { symlinks: true }, output: { topLevelVar: true } },
+        extensions: [],
+        disabled: undefined,
+        holdUntilCrawlEnd: true,
+        force: false,
+        ignoreOutdatedRequests: false,
+        noDiscovery: true,
+        entries: [
+          'C:/Users/92760/Desktop/githubdailyblog/src/**/*.{jsx,tsx,vue,svelte,html}'
+        ],
+        rollupOptions: [Getter/Setter],
+        esbuildOptions: { preserveSymlinks: false }
+      },
+      dev: {
+        warmup: [],
+        sourcemap: { js: true },
+        sourcemapIgnoreList: [Function: isInNodeModules],
+        preTransformRequests: true,
+        createEnvironment: [Function: defaultCreateClientDevEnvironment],
+        recoverable: true,
+        moduleRunnerTransform: false
+      },
+      build: {
+        target: [
+          'chrome111',
+          'edge111',
+          'firefox114',
+          'safari16.4',
+          'ios16.4'
+        ],
+        polyfillModulePreload: true,
+        modulePreload: { polyfill: true },
+        outDir: 'dist',
+        assetsDir: '_astro',
+        assetsInlineLimit: 4096,
+        sourcemap: false,
+        terserOptions: {},
+        chunkImportMap: false,
+        rolldownOptions: { platform: 'browser' },
+        commonjsOptions: { include: [ /node_modules/ ], extensions: [ '.js', '.cjs' ] },
+        dynamicImportVarsOptions: { exclude: [ /node_modules/ ] },
+        write: true,
+        emptyOutDir: null,
+        copyPublicDir: true,
+        license: false,
+        manifest: false,
+        lib: false,
+        ssrManifest: false,
+        ssrEmitAssets: false,
+        reportCompressedSize: true,
+        chunkSizeWarningLimit: 500,
+        watch: null,
+        cssCodeSplit: true,
+        minify: 'oxc',
+        rollupOptions: [Getter/Setter],
+        ssr: false,
+        emitAssets: true,
+        createEnvironment: [Function: createEnvironment],
+        cssTarget: [
+          'chrome111',
+          'edge111',
+          'firefox114',
+          'safari16.4',
+          'ios16.4'
+        ],
+        cssMinify: true
+      },
+      isBundled: false,
+      plugins: [
+        {
+          name: 'vite:optimized-deps',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: [Function: resolveId],
+          load: [AsyncFunction: load]
+        },
+        {
+          name: 'vite:watch-package-data',
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'vite:pre-alias',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: [AsyncFunction: resolveId]
+        },
+        {
+          name: 'alias',
+          buildStart: [AsyncFunction: buildStart],
+          resolveId: [Function: resolveId],
+          applyToEnvironment: [Function: applyToEnvironment]
+        },
+        {
+          name: 'astro:plugin-renderers',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^virtual:astro:renderers$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:renderers$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:static-paths',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^astro:static-paths$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ astro:static-paths$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:build:css-hmr',
+          enforce: 'pre',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: {
+            filter: {
+              id: {
+                include: [ /(?:\?|&)astro(?:&|=|$)/ ],
+                exclude: [ /(?:\?|&)(?:url|raw|direct)(?:&|$)/ ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:build',
+          enforce: 'pre',
+          configEnvironment: [AsyncFunction: configEnvironment],
+          configResolved: [AsyncFunction: configResolved],
+          configureServer: [Function: configureServer],
+          buildStart: [Function: buildStart],
+          load: {
+            filter: { id: /(?:\?|&)astro(?:&|=|$)/ },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: [ /\.astro$/, /\.astro\?/ ],
+                exclude: [
+                  /(?:\?|&)(?:url|raw|direct)(?:&|$)/,
+                  /(?:\?|&)astro(?:&|=|$)/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          handleHotUpdate: [AsyncFunction: handleHotUpdate]
+        },
+        {
+          name: 'astro-env-plugin',
+          enforce: 'pre',
+          config: [Function: config],
+          buildStart: [Function: buildStart],
+          resolveId: {
+            filter: {
+              id: /^(astro:env\/client|astro:env\/server|virtual:astro:env\/internal)$/
+            },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: /^( astro:env\/client| astro:env\/server| virtual:astro:env\/internal)$/
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          enforce: 'pre',
+          name: 'astro:markdown',
+          buildEnd: [Function: buildEnd],
+          resolveId: {
+            filter: { id: /^[^/]/ },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: {
+              id: {
+                include: /\.(markdown|mdown|mkdn|mkd|mdwn|md)(\?|$)/,
+                exclude: /(?:\?|&)(?:url|raw|direct)(?:&|$)/
+              }
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:head-metadata',
+          enforce: 'pre',
+          apply: 'serve',
+          configureServer: [Function: configureServer],
+          load: [Function: load],
+          resolveId: [Function: resolveId],
+          transform: [Function: transform]
+        },
+        {
+          name: 'astro-content-virtual-mod-plugin',
+          enforce: 'pre',
+          config: [Function: config],
+          buildStart: [Function: buildStart],
+          resolveId: {
+            filter: {
+              id: /^(astro:content|astro:data-layer-content|astro:content-module-imports|astro:asset-imports)$|^astro:data-layer-content-chunk:|(?:\?|&)astroContentModuleFlag(?:&|=|$)/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: {
+              id: /^( astro:content| astro:data-layer-content| astro:asset-imports| astro:content-module-imports)$|^ astro:data-layer-content-chunk:/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          configureServer: [Function: configureServer]
+        },
+        {
+          name: 'astro:content-asset-propagation',
+          enforce: 'pre',
+          resolveId: {
+            filter: {
+              id: /(?:\?|&)(?:astroContentImageFlag|astroRenderContent)(?:&|=|$)/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          configureServer: [Function: configureServer],
+          transform: {
+            filter: { id: /(?:\?|&)astroPropagatedAssets(?:&|=|$)/ },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:assets:esm',
+          enforce: 'pre',
+          config: [Function: config],
+          configResolved: [Function: configResolved],
+          load: {
+            filter: { id: /\.(jpeg|jpg|png|apng|tiff|webp|gif|svg|avif)/i },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:vite-plugin-file-url',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^file:\/\// },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:i18n',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^astro:i18n$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:actions',
+          enforce: 'pre',
+          resolveId: {
+            filter: {
+              id: /^(astro:actions|virtual:astro:actions\/options|virtual:astro:actions\/entrypoint)$/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          configureServer: [AsyncFunction: configureServer],
+          load: {
+            filter: {
+              id: /^( astro:actions| virtual:astro:actions\/noop-entrypoint| virtual:astro:actions\/entrypoint| virtual:astro:actions\/options)$/
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'virtual:astro:session-driver',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^virtual:astro:session-driver$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:session-driver$/ },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:session-provider',
+          enforce: 'pre',
+          resolveId: [AsyncFunction: resolveId]
+        },
+        {
+          name: 'astro:container',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^(astro:container)$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:modulepreload-polyfill',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: { id: /^vite\/modulepreload\-polyfill$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ vite\/modulepreload\-polyfill\.js$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:resolve-dev',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: {
+              id: {
+                exclude: [ /^\0/, /^virtual:/, /^\/virtual:/, /^__vite-/ ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:resolve-builtin:get-environment',
+          buildStart: [Function: buildStart],
+          perEnvironmentStartEndDuringDev: true
+        },
+        BuiltinPlugin {
+          name: 'builtin:vite-resolve',
+          _options: {
+            resolveOptions: {
+              isBuild: false,
+              isProduction: true,
+              asSrc: true,
+              preferRelative: false,
+              isRequire: undefined,
+              root: 'C:/Users/92760/Desktop/githubdailyblog',
+              scan: false,
+              mainFields: [ 'browser', 'module', 'jsnext:main', 'jsnext', 'main' ],
+              conditions: [
+                'module',
+                'browser',
+                'development|production',
+                'astro'
+              ],
+              externalConditions: [ 'node', 'module-sync' ],
+              extensions: [
+                '.mjs',  '.js',
+                '.mts',  '.ts',
+                '.jsx',  '.tsx',
+                '.json'
+              ],
+              tryIndex: true,
+              tryPrefix: undefined,
+              preserveSymlinks: false,
+              tsconfigPaths: true
+            },
+            environmentConsumer: 'client',
+            environmentName: 'client',
+            builtins: [],
+            external: [],
+            noExternal: [
+              'astro',
+              'astro/components',
+              '@nanostores/preact',
+              '@fontsource/*',
+              'neotraverse'
+            ],
+            dedupe: [ 'astro' ],
+            disableCache: false,
+            legacyInconsistentCjsInterop: undefined,
+            finalizeBareSpecifier: [Function (anonymous)],
+            finalizeOtherSpecifiers: [Function (anonymous)],
+            resolveSubpathImports: [Function: resolveSubpathImports],
+            onWarn: [AsyncFunction: onWarn],
+            yarnPnp: false
+          },
+          enforce: undefined,
+          getOrder: [AsyncFunction: wrappedHook],
+          load: [AsyncFunction: wrappedHook],
+          resolveId: [AsyncFunction: wrappedHook],
+          transform: [AsyncFunction: wrappedHook],
+          watchChange: [AsyncFunction: wrappedHook],
+          perEnvironmentWatchChangeDuringDev: true
+        },
+        {
+          name: 'vite:html-inline-proxy',
+          resolveId: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:css',
+          buildStart: [Function: buildStart],
+          buildEnd: [AsyncFunction: buildEnd],
+          load: {
+            filter: {
+              id: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/
+            },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'builtin:oxc-runtime',
+          _options: undefined,
+          enforce: undefined,
+          getOrder: [AsyncFunction: wrappedHook],
+          load: { handler: [AsyncFunction: wrappedHook], order: 'pre' },
+          resolveId: { handler: [AsyncFunction: wrappedHook], order: 'pre' },
+          transform: [AsyncFunction: wrappedHook],
+          watchChange: [AsyncFunction: wrappedHook],
+          applyToEnvironment: [Function: applyToEnvironment]
+        },
+        {
+          name: 'vite:oxc',
+          applyToEnvironment: [Function: applyToEnvironment],
+          configureServer: [Function: configureServer],
+          transform: [AsyncFunction: transform]
+        },
+        BuiltinPlugin {
+          name: 'builtin:vite-json',
+          _options: { namedExports: true, stringify: 'auto', minify: false },
+          enforce: undefined,
+          getOrder: [AsyncFunction: wrappedHook],
+          load: [AsyncFunction: wrappedHook],
+          resolveId: [AsyncFunction: wrappedHook],
+          transform: [AsyncFunction: wrappedHook],
+          watchChange: [AsyncFunction: wrappedHook]
+        },
+        {
+          name: 'vite:wasm-helper',
+          resolveId: {
+            filter: { id: /^ vite\/wasm\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: [
+                /^ vite\/wasm\-helper\.js$/,
+                /(?<![?#].*)\.wasm\?init/,
+                /(?<![?#].*)\.wasm$/,
+                /[?&]vite-wasm-instance(?:&|$)/
+              ]
+            },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: undefined
+        },
+        {
+          name: 'vite:worker',
+          buildStart: [Function: buildStart],
+          load: {
+            filter: { id: /(?:\?|&)(worker|sharedworker)(?:&|$)/ },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: { id: /(?:\?|&)worker_file&type=(\w+)(?:&|$)/ },
+            handler: [Function: handler]
+          },
+          generateBundle: [Function: generateBundle],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'vite:asset',
+          perEnvironmentStartEndDuringDev: true,
+          buildStart: [Function: buildStart],
+          resolveId: {
+            filter: {
+              id: [
+                /(\?|&)url(?:&|$)/,
+                /\.(apng|bmp|png|jpe?g|jfif|pjpeg|pjp|gif|svg|ico|webp|avif|cur|jxl|mp4|webm|ogg|mp3|wav|flac|aac|opus|mov|m4a|vtt|woff2?|eot|ttf|otf|webmanifest|pdf|txt)(\?.*)?$/i
+              ]
+            },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: {
+                include: [
+                  /(\?|&)raw(?:&|$)/,
+                  /(\?|&)url(?:&|$)/,
+                  /\.(apng|bmp|png|jpe?g|jfif|pjpeg|pjp|gif|svg|ico|webp|avif|cur|jxl|mp4|webm|ogg|mp3|wav|flac|aac|opus|mov|m4a|vtt|woff2?|eot|ttf|otf|webmanifest|pdf|txt)(\?.*)?$/i
+                ],
+                exclude: /^\0/
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          generateBundle: [Function: generateBundle],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'astro:watcher-max-listeners',
+          configureServer: [Function: configureServer]
+        },
+        {
+          name: 'astro-manifest-plugin',
+          resolveId: {
+            filter: { id: /^(astro:config\/server|astro:config\/client)$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^( astro:config\/server| astro:config\/client)$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:environment',
+          configEnvironment: [Function: configEnvironment]
+        },
+        {
+          name: 'astro:build:normal',
+          resolveId: {
+            filter: { id: /(?:\?|&)astro(?:&|=|$)/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:scripts',
+          config: [Function: config],
+          resolveId: {
+            filter: { id: /^astro:scripts\// },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: /^(astro:scripts\/before-hydration.js|astro:scripts\/page.js|astro:scripts\/page-ssr.js)$/
+            },
+            handler: [Function: handler]
+          },
+          buildStart: [Function: buildStart]
+        },
+        {
+          name: 'astro:app',
+          configResolved: [Function: configResolved],
+          resolveId: {
+            filter: { id: /^virtual:astro:app$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:app$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:server-app',
+          resolveId: {
+            filter: { id: /^virtual:astro:server-app$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'virtual:astro:dev-css',
+          configureServer: [AsyncFunction: configureServer],
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: {
+              id: /^(virtual:astro:dev-css|virtual:astro:dev-css:.*)$/
+            },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: /^( virtual:astro:dev-css| virtual:astro:dev-css:.*)$/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: [
+                  /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/
+                ],
+                exclude: [ /(?:\?|&)raw(?:&|$)/, /(?:\?|&)inline\b/ ]
+              }
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'virtual:astro:dev-css-all',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: { id: /^virtual:astro:dev-css-all$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:dev-css-all$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:adapter-config',
+          config: [Function: config],
+          resolveId: {
+            filter: { id: /^virtual:astro:adapter-config\/client$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:adapter-config\/client$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:html',
+          options: [Function: options],
+          transform: {
+            filter: { id: /\.html$/ },
+            handler: [AsyncFunction: transform]
+          }
+        },
+        {
+          name: 'astro:integration-container',
+          configureServer: [AsyncFunction: configureServer],
+          buildStart: [AsyncFunction: buildStart]
+        },
+        {
+          name: 'astro:content-imports',
+          config: [Function: config],
+          buildStart: [AsyncFunction: buildStart],
+          transform: {
+            filter: {
+              id: /(?:\?|&)(?:astroDataCollectionEntry|astroContentCollectionEntry)(?:&|=|$)/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          configureServer: [Function: configureServer]
+        },
+        {
+          name: 'astro:assets',
+          config: [Function: config],
+          resolveId: {
+            filter: {
+              id: /^(virtual:image-service|astro:assets|virtual:astro:get-image)$/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: { id: /^( astro:assets| virtual:astro:get-image)$/ },
+            handler: [Function: handler]
+          },
+          buildStart: [Function: buildStart],
+          renderChunk: [AsyncFunction: renderChunk]
+        },
+        {
+          name: 'astro:fonts',
+          buildStart: [AsyncFunction: buildStart],
+          configureServer: [AsyncFunction: configureServer],
+          resolveId: {
+            filter: {
+              id: /^(virtual:astro:assets\/fonts\/internal|virtual:astro:assets\/fonts\/runtime|virtual:astro:assets\/fonts\/runtime\/font-file-url-resolver)$/
+            },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: /^( virtual:astro:assets\/fonts\/internal| virtual:astro:assets\/fonts\/runtime| virtual:astro:assets\/fonts\/runtime\/font-file-url-resolver)$/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          buildEnd: [AsyncFunction: buildEnd]
+        },
+        {
+          name: 'astro:image-styles',
+          resolveId: {
+            filter: { id: /^virtual:astro:image-styles.css$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:image-styles.css$/ },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:prefetch',
+          resolveId: {
+            filter: { id: /^astro:prefetch$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ astro:prefetch$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: { id: /astro\/dist\/prefetch\/index.js/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:transitions',
+          resolveId: {
+            filter: { id: /^(astro:transitions|astro:transitions\/client)$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^( astro:transitions| astro:transitions\/client)$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: { id: /ClientRouter\.astro.*\.ts$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:dev-toolbar',
+          config: [Function: config],
+          resolveId: {
+            filter: { id: /^astro:toolbar:internal$/ },
+            handler: [Function: handler]
+          },
+          configureServer: [Function: configureServer],
+          load: {
+            filter: { id: /^ astro:toolbar:internal$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:chromedevtools',
+          configureServer: [Function: configureServer]
+        },
+        {
+          name: 'astro:vite-plugin-env',
+          config: [Function: config],
+          configResolved: [Function: configResolved],
+          transform: {
+            filter: {
+              id: {
+                exclude: [
+                  /.*\.(html|htm|json)$/,
+                  /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/
+                ]
+              },
+              code: /import\.meta\.env/
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:define',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: { handler: [Function: handler] }
+        },
+        {
+          name: 'vite:css-post',
+          renderStart: [Function: renderStart],
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          generateBundle: [AsyncFunction: generateBundle]
+        },
+        {
+          name: 'vite:worker-import-meta-url',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: {
+            filter: {
+              code: /\bnew\s+(?:Worker|SharedWorker)\s*\(\s*(new\s+URL\s*\(\s*('[^']+'|"[^"]+"|`[^`]+`)\s*,\s*import\.meta\.url\s*(?:,\s*)?\))/dg
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:asset-import-meta-url',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: {
+            filter: {
+              id: {
+                exclude: [
+                  /^ vite\/preload\-helper\.js$/,
+                  /^C:\\Users\\92760\\Desktop\\githubdailyblog\\node_modules\\vite\\dist\\client\\client\.mjs$/
+                ]
+              },
+              code: /\bnew\s+URL\s*\(\s*('[^']+'|"[^"]+"|`[^`]+`)\s*,\s*import\.meta\.url\s*(?:,\s*)?\)/dg
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:dynamic-import-vars',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                exclude: /^C:\\Users\\92760\\Desktop\\githubdailyblog\\node_modules\\vite\\dist\\client\\client\.mjs$/
+              },
+              code: /\bimport\s*[(/]/
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:import-glob',
+          applyToEnvironment: [Function: applyToEnvironment],
+          buildStart: [Function: buildStart],
+          transform: {
+            filter: { code: 'import.meta.glob' },
+            handler: [AsyncFunction: handler]
+          },
+          hotUpdate: [Function: hotUpdate]
+        },
+        {
+          name: 'astro:scripts:page-ssr',
+          enforce: 'post',
+          transform: [Function: transform]
+        },
+        {
+          name: 'astro:server-islands',
+          enforce: 'post',
+          api: { hasServerIslands: [Function: hasServerIslands] },
+          config: [Function: config],
+          buildStart: [Function: buildStart],
+          configureServer: [Function: configureServer],
+          resolveId: {
+            filter: { id: /^virtual:astro:server-island-manifest$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:server-island-manifest$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: [
+                  /\.(astro|mdx)$/,
+                  /^ virtual:astro:server-island-manifest$/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: [Function: renderChunk]
+        },
+        {
+          name: 'astro:hmr-reload',
+          enforce: 'post',
+          hotUpdate: { order: 'post', handler: [Function: handler] }
+        },
+        {
+          name: 'vite:client-inject',
+          applyToEnvironment: [Function: applyToEnvironment],
+          buildStart: [AsyncFunction: buildStart],
+          transform: [Function: transform]
+        },
+        {
+          name: 'vite:css-analysis',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:import-analysis',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: [AsyncFunction: transform]
+        }
+      ],
+      optimizeDepsPluginNames: []
+    },
+    ssr: {
+      input: undefined,
+      define: {
+        'import.meta.env.SITE': 'undefined',
+        'import.meta.env.BASE_URL': '"/"',
+        'import.meta.env.ASSETS_PREFIX': 'undefined'
+      },
+      resolve: {
+        externalConditions: [ 'node', 'module-sync' ],
+        extensions: [
+          '.mjs',  '.js',
+          '.mts',  '.ts',
+          '.jsx',  '.tsx',
+          '.json'
+        ],
+        dedupe: [ 'astro' ],
+        noExternal: [
+          'astro',
+          'astro/components',
+          '@nanostores/preact',
+          '@fontsource/*',
+          'neotraverse'
+        ],
+        external: [],
+        preserveSymlinks: false,
+        tsconfigPaths: true,
+        alias: [
+          { find: 'randombytes', replacement: 'randombytes/browser' },
+          {
+            find: /^astro$/,
+            replacement: 'C:\\Users\\92760\\Desktop\\githubdailyblog\\node_modules\\astro\\dist\\types\\public\\index.js'
+          },
+          {
+            find: 'astro:middleware',
+            replacement: 'astro/virtual-modules/middleware.js'
+          },
+          { find: 'astro:schema', replacement: 'astro/zod' },
+          { find: 'astro:components', replacement: 'astro/components' },
+          {
+            find: /^\/?@vite\/env/,
+            replacement: '/@fs/C:/Users/92760/Desktop/githubdailyblog/node_modules/vite/dist/client/env.mjs'
+          },
+          {
+            find: /^\/?@vite\/client/,
+            replacement: '/@fs/C:/Users/92760/Desktop/githubdailyblog/node_modules/vite/dist/client/client.mjs'
+          }
+        ],
+        mainFields: [ 'module', 'jsnext:main', 'jsnext' ],
+        conditions: [ 'module', 'node', 'development|production', 'astro' ],
+        builtins: [
+          '_http_agent',         '_http_client',        '_http_common',
+          '_http_incoming',      '_http_outgoing',      '_http_server',
+          '_stream_duplex',      '_stream_passthrough', '_stream_readable',
+          '_stream_transform',   '_stream_wrap',        '_stream_writable',
+          '_tls_common',         '_tls_wrap',           'assert',
+          'assert/strict',       'async_hooks',         'buffer',
+          'child_process',       'cluster',             'console',
+          'constants',           'crypto',              'dgram',
+          'diagnostics_channel', 'dns',                 'dns/promises',
+          'domain',              'events',              'fs',
+          'fs/promises',         'http',                'http2',
+          'https',               'inspector',           'inspector/promises',
+          'module',              'net',                 'os',
+          'path',                'path/posix',          'path/win32',
+          'perf_hooks',          'process',             'punycode',
+          'querystring',         'readline',            'readline/promises',
+          'repl',                'stream',              'stream/consumers',
+          'stream/promises',     'stream/web',          'string_decoder',
+          'sys',                 'timers',              'timers/promises',
+          'tls',                 'trace_events',        'tty',
+          'url',                 'util',                'util/types',
+          'v8',                  'vm',                  'wasi',
+          'worker_threads',      'zlib',                /^node:/,
+          /^bun:/
+        ]
+      },
+      keepProcessEnv: true,
+      consumer: 'server',
+      optimizeDeps: {
+        include: [],
+        exclude: [],
+        needsInterop: [],
+        rolldownOptions: { resolve: { symlinks: true }, output: { topLevelVar: true } },
+        extensions: [],
+        disabled: undefined,
+        holdUntilCrawlEnd: true,
+        force: false,
+        ignoreOutdatedRequests: false,
+        noDiscovery: true,
+        rollupOptions: [Getter/Setter],
+        esbuildOptions: { preserveSymlinks: false }
+      },
+      dev: {
+        warmup: [],
+        sourcemap: { js: true },
+        sourcemapIgnoreList: [Function: isInNodeModules],
+        preTransformRequests: false,
+        createEnvironment: [Function: defaultCreateDevEnvironment],
+        recoverable: false,
+        moduleRunnerTransform: true
+      },
+      build: {
+        target: [
+          'chrome111',
+          'edge111',
+          'firefox114',
+          'safari16.4',
+          'ios16.4'
+        ],
+        polyfillModulePreload: true,
+        modulePreload: { polyfill: true },
+        outDir: 'dist',
+        assetsDir: '_astro',
+        assetsInlineLimit: 4096,
+        sourcemap: false,
+        terserOptions: {},
+        chunkImportMap: false,
+        rolldownOptions: { platform: 'node' },
+        commonjsOptions: { include: [ /node_modules/ ], extensions: [ '.js', '.cjs' ] },
+        dynamicImportVarsOptions: { exclude: [ /node_modules/ ] },
+        write: true,
+        emptyOutDir: null,
+        copyPublicDir: true,
+        license: false,
+        manifest: false,
+        lib: false,
+        ssrManifest: false,
+        ssrEmitAssets: false,
+        reportCompressedSize: true,
+        chunkSizeWarningLimit: 500,
+        watch: null,
+        cssCodeSplit: true,
+        minify: false,
+        rollupOptions: [Getter/Setter],
+        ssr: true,
+        emitAssets: false,
+        createEnvironment: [Function: createEnvironment],
+        cssTarget: [
+          'chrome111',
+          'edge111',
+          'firefox114',
+          'safari16.4',
+          'ios16.4'
+        ],
+        cssMinify: 'lightningcss'
+      },
+      isBundled: false,
+      plugins: [
+        {
+          name: 'vite:watch-package-data',
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'alias',
+          buildStart: [AsyncFunction: buildStart],
+          resolveId: [Function: resolveId],
+          applyToEnvironment: [Function: applyToEnvironment]
+        },
+        {
+          name: 'virtual:astro:manifest',
+          enforce: 'pre',
+          configEnvironment: [Function: configEnvironment],
+          configureServer: [Function: configureServer],
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: {
+              id: /^(virtual:astro:manifest|#astro-internal\/ambient-manifest)$/
+            },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:manifest$/ },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:plugin-renderers',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^virtual:astro:renderers$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:renderers$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:static-paths',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^astro:static-paths$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ astro:static-paths$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:build',
+          enforce: 'pre',
+          configEnvironment: [AsyncFunction: configEnvironment],
+          configResolved: [AsyncFunction: configResolved],
+          configureServer: [Function: configureServer],
+          buildStart: [Function: buildStart],
+          load: {
+            filter: { id: /(?:\?|&)astro(?:&|=|$)/ },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: [ /\.astro$/, /\.astro\?/ ],
+                exclude: [
+                  /(?:\?|&)(?:url|raw|direct)(?:&|$)/,
+                  /(?:\?|&)astro(?:&|=|$)/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          handleHotUpdate: [AsyncFunction: handleHotUpdate]
+        },
+        {
+          name: 'astro-env-plugin',
+          enforce: 'pre',
+          config: [Function: config],
+          buildStart: [Function: buildStart],
+          resolveId: {
+            filter: {
+              id: /^(astro:env\/client|astro:env\/server|virtual:astro:env\/internal)$/
+            },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: /^( astro:env\/client| astro:env\/server| virtual:astro:env\/internal)$/
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          enforce: 'pre',
+          name: 'astro:markdown',
+          buildEnd: [Function: buildEnd],
+          resolveId: {
+            filter: { id: /^[^/]/ },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: {
+              id: {
+                include: /\.(markdown|mdown|mkdn|mkd|mdwn|md)(\?|$)/,
+                exclude: /(?:\?|&)(?:url|raw|direct)(?:&|$)/
+              }
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:head-metadata',
+          enforce: 'pre',
+          apply: 'serve',
+          configureServer: [Function: configureServer],
+          load: [Function: load],
+          resolveId: [Function: resolveId],
+          transform: [Function: transform]
+        },
+        {
+          name: 'astro-content-virtual-mod-plugin',
+          enforce: 'pre',
+          config: [Function: config],
+          buildStart: [Function: buildStart],
+          resolveId: {
+            filter: {
+              id: /^(astro:content|astro:data-layer-content|astro:content-module-imports|astro:asset-imports)$|^astro:data-layer-content-chunk:|(?:\?|&)astroContentModuleFlag(?:&|=|$)/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: {
+              id: /^( astro:content| astro:data-layer-content| astro:asset-imports| astro:content-module-imports)$|^ astro:data-layer-content-chunk:/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          configureServer: [Function: configureServer]
+        },
+        {
+          name: 'astro:content-asset-propagation',
+          enforce: 'pre',
+          resolveId: {
+            filter: {
+              id: /(?:\?|&)(?:astroContentImageFlag|astroRenderContent)(?:&|=|$)/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          configureServer: [Function: configureServer],
+          transform: {
+            filter: { id: /(?:\?|&)astroPropagatedAssets(?:&|=|$)/ },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:assets:esm',
+          enforce: 'pre',
+          config: [Function: config],
+          configResolved: [Function: configResolved],
+          load: {
+            filter: { id: /\.(jpeg|jpg|png|apng|tiff|webp|gif|svg|avif)/i },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:vite-plugin-file-url',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^file:\/\// },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:i18n',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^astro:i18n$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:actions',
+          enforce: 'pre',
+          resolveId: {
+            filter: {
+              id: /^(astro:actions|virtual:astro:actions\/options|virtual:astro:actions\/entrypoint)$/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          configureServer: [AsyncFunction: configureServer],
+          load: {
+            filter: {
+              id: /^( astro:actions| virtual:astro:actions\/noop-entrypoint| virtual:astro:actions\/entrypoint| virtual:astro:actions\/options)$/
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'virtual:astro:session-driver',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^virtual:astro:session-driver$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:session-driver$/ },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:session-provider',
+          enforce: 'pre',
+          resolveId: [AsyncFunction: resolveId]
+        },
+        {
+          name: 'astro:container',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^(astro:container)$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:modulepreload-polyfill',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: { id: /^vite\/modulepreload\-polyfill$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ vite\/modulepreload\-polyfill\.js$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:resolve-builtin:get-environment',
+          buildStart: [Function: buildStart],
+          perEnvironmentStartEndDuringDev: true
+        },
+        BuiltinPlugin {
+          name: 'builtin:vite-resolve',
+          _options: {
+            resolveOptions: {
+              isBuild: false,
+              isProduction: true,
+              asSrc: true,
+              preferRelative: false,
+              isRequire: undefined,
+              root: 'C:/Users/92760/Desktop/githubdailyblog',
+              scan: false,
+              mainFields: [ 'module', 'jsnext:main', 'jsnext', 'main' ],
+              conditions: [ 'module', 'node', 'development|production', 'astro' ],
+              externalConditions: [ 'node', 'module-sync' ],
+              extensions: [
+                '.mjs',  '.js',
+                '.mts',  '.ts',
+                '.jsx',  '.tsx',
+                '.json'
+              ],
+              tryIndex: true,
+              tryPrefix: undefined,
+              preserveSymlinks: false,
+              tsconfigPaths: true
+            },
+            environmentConsumer: 'server',
+            environmentName: 'ssr',
+            builtins: [
+              '_http_agent',
+              '_http_client',
+              '_http_common',
+              '_http_incoming',
+              '_http_outgoing',
+              '_http_server',
+              '_stream_duplex',
+              '_stream_passthrough',
+              '_stream_readable',
+              '_stream_transform',
+              '_stream_wrap',
+              '_stream_writable',
+              '_tls_common',
+              '_tls_wrap',
+              'assert',
+              'assert/strict',
+              'async_hooks',
+              'buffer',
+              'child_process',
+              'cluster',
+              'console',
+              'constants',
+              'crypto',
+              'dgram',
+              'diagnostics_channel',
+              'dns',
+              'dns/promises',
+              'domain',
+              'events',
+              'fs',
+              'fs/promises',
+              'http',
+              'http2',
+              'https',
+              'inspector',
+              'inspector/promises',
+              'module',
+              'net',
+              'os',
+              'path',
+              'path/posix',
+              'path/win32',
+              'perf_hooks',
+              'process',
+              'punycode',
+              'querystring',
+              'readline',
+              'readline/promises',
+              'repl',
+              'stream',
+              'stream/consumers',
+              'stream/promises',
+              'stream/web',
+              'string_decoder',
+              'sys',
+              'timers',
+              'timers/promises',
+              'tls',
+              'trace_events',
+              'tty',
+              'url',
+              'util',
+              'util/types',
+              'v8',
+              'vm',
+              'wasi',
+              'worker_threads',
+              'zlib',
+              /^node:/,
+              /^bun:/
+            ],
+            external: [],
+            noExternal: [
+              'astro',
+              'astro/components',
+              '@nanostores/preact',
+              '@fontsource/*',
+              'neotraverse'
+            ],
+            dedupe: [ 'astro' ],
+            disableCache: false,
+            legacyInconsistentCjsInterop: undefined,
+            finalizeBareSpecifier: undefined,
+            finalizeOtherSpecifiers: undefined,
+            resolveSubpathImports: [Function: resolveSubpathImports],
+            onWarn: [AsyncFunction: onWarn],
+            yarnPnp: false
+          },
+          enforce: undefined,
+          getOrder: [AsyncFunction: wrappedHook],
+          load: [AsyncFunction: wrappedHook],
+          resolveId: [AsyncFunction: wrappedHook],
+          transform: [AsyncFunction: wrappedHook],
+          watchChange: [AsyncFunction: wrappedHook],
+          perEnvironmentWatchChangeDuringDev: true
+        },
+        {
+          name: 'vite:html-inline-proxy',
+          resolveId: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:css',
+          buildStart: [Function: buildStart],
+          buildEnd: [AsyncFunction: buildEnd],
+          load: {
+            filter: {
+              id: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/
+            },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'builtin:oxc-runtime',
+          _options: undefined,
+          enforce: undefined,
+          getOrder: [AsyncFunction: wrappedHook],
+          load: { handler: [AsyncFunction: wrappedHook], order: 'pre' },
+          resolveId: { handler: [AsyncFunction: wrappedHook], order: 'pre' },
+          transform: [AsyncFunction: wrappedHook],
+          watchChange: [AsyncFunction: wrappedHook],
+          applyToEnvironment: [Function: applyToEnvironment]
+        },
+        {
+          name: 'vite:oxc',
+          applyToEnvironment: [Function: applyToEnvironment],
+          configureServer: [Function: configureServer],
+          transform: [AsyncFunction: transform]
+        },
+        BuiltinPlugin {
+          name: 'builtin:vite-json',
+          _options: { namedExports: true, stringify: 'auto', minify: false },
+          enforce: undefined,
+          getOrder: [AsyncFunction: wrappedHook],
+          load: [AsyncFunction: wrappedHook],
+          resolveId: [AsyncFunction: wrappedHook],
+          transform: [AsyncFunction: wrappedHook],
+          watchChange: [AsyncFunction: wrappedHook]
+        },
+        {
+          name: 'vite:wasm-helper',
+          resolveId: {
+            filter: { id: /^ vite\/wasm\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: [
+                /^ vite\/wasm\-helper\.js$/,
+                /(?<![?#].*)\.wasm\?init/,
+                /(?<![?#].*)\.wasm$/,
+                /[?&]vite-wasm-instance(?:&|$)/
+              ]
+            },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: {
+            filter: { code: /__VITE_WASM_INIT__([\w$]+)__/g },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:worker',
+          buildStart: [Function: buildStart],
+          load: {
+            filter: { id: /(?:\?|&)(worker|sharedworker)(?:&|$)/ },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: { id: /(?:\?|&)worker_file&type=(\w+)(?:&|$)/ },
+            handler: [Function: handler]
+          },
+          generateBundle: [Function: generateBundle],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'vite:asset',
+          perEnvironmentStartEndDuringDev: true,
+          buildStart: [Function: buildStart],
+          resolveId: {
+            filter: {
+              id: [
+                /(\?|&)url(?:&|$)/,
+                /\.(apng|bmp|png|jpe?g|jfif|pjpeg|pjp|gif|svg|ico|webp|avif|cur|jxl|mp4|webm|ogg|mp3|wav|flac|aac|opus|mov|m4a|vtt|woff2?|eot|ttf|otf|webmanifest|pdf|txt)(\?.*)?$/i
+              ]
+            },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: {
+                include: [
+                  /(\?|&)raw(?:&|$)/,
+                  /(\?|&)url(?:&|$)/,
+                  /\.(apng|bmp|png|jpe?g|jfif|pjpeg|pjp|gif|svg|ico|webp|avif|cur|jxl|mp4|webm|ogg|mp3|wav|flac|aac|opus|mov|m4a|vtt|woff2?|eot|ttf|otf|webmanifest|pdf|txt)(\?.*)?$/i
+                ],
+                exclude: /^\0/
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          generateBundle: [Function: generateBundle],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'astro:watcher-max-listeners',
+          configureServer: [Function: configureServer]
+        },
+        {
+          name: 'astro:routes',
+          configureServer: [Function: configureServer],
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: { id: /^virtual:astro:routes$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:routes$/ },
+            handler: [Function: handler]
+          },
+          transform: [AsyncFunction: transform],
+          handleHotUpdate: [AsyncFunction: handleHotUpdate]
+        },
+        {
+          name: 'astro-manifest-plugin',
+          resolveId: {
+            filter: { id: /^(astro:config\/server|astro:config\/client)$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^( astro:config\/server| astro:config\/client)$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:environment',
+          configEnvironment: [Function: configEnvironment]
+        },
+        {
+          name: '@astro/plugin-page',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: { id: /^virtual:astro:page:/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:page:/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:build:normal',
+          resolveId: {
+            filter: { id: /(?:\?|&)astro(?:&|=|$)/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:scripts',
+          config: [Function: config],
+          resolveId: {
+            filter: { id: /^astro:scripts\// },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: /^(astro:scripts\/before-hydration.js|astro:scripts\/page.js|astro:scripts\/page-ssr.js)$/
+            },
+            handler: [Function: handler]
+          },
+          buildStart: [Function: buildStart]
+        },
+        {
+          name: 'astro:app',
+          configResolved: [Function: configResolved],
+          resolveId: {
+            filter: { id: /^virtual:astro:app$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:app$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:server-app',
+          resolveId: {
+            filter: { id: /^virtual:astro:server-app$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: '@astro/plugin-fetchable',
+          applyToEnvironment: [Function: applyToEnvironment],
+          configureServer: [Function: configureServer],
+          resolveId: {
+            filter: { id: /^virtual:astro:fetchable$/ },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:fetchable$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'virtual:astro:dev-css',
+          configureServer: [AsyncFunction: configureServer],
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: {
+              id: /^(virtual:astro:dev-css|virtual:astro:dev-css:.*)$/
+            },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: /^( virtual:astro:dev-css| virtual:astro:dev-css:.*)$/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: [
+                  /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/
+                ],
+                exclude: [ /(?:\?|&)raw(?:&|$)/, /(?:\?|&)inline\b/ ]
+              }
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'virtual:astro:dev-css-all',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: { id: /^virtual:astro:dev-css-all$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:dev-css-all$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:adapter-config',
+          config: [Function: config],
+          resolveId: {
+            filter: { id: /^virtual:astro:adapter-config\/client$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:adapter-config\/client$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:html',
+          options: [Function: options],
+          transform: {
+            filter: { id: /\.html$/ },
+            handler: [AsyncFunction: transform]
+          }
+        },
+        {
+          name: 'astro:integration-container',
+          configureServer: [AsyncFunction: configureServer],
+          buildStart: [AsyncFunction: buildStart]
+        },
+        {
+          name: 'astro:content-imports',
+          config: [Function: config],
+          buildStart: [AsyncFunction: buildStart],
+          transform: {
+            filter: {
+              id: /(?:\?|&)(?:astroDataCollectionEntry|astroContentCollectionEntry)(?:&|=|$)/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          configureServer: [Function: configureServer]
+        },
+        {
+          name: '@astro/plugin-middleware',
+          applyToEnvironment: [Function: applyToEnvironment],
+          hotUpdate: { handler: [Function: handler] },
+          resolveId: {
+            filter: { id: /^virtual:astro:middleware$/ },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: { id: /^( noop-middleware| virtual:astro:middleware)$/ },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:assets',
+          config: [Function: config],
+          resolveId: {
+            filter: {
+              id: /^(virtual:image-service|astro:assets|virtual:astro:get-image)$/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: { id: /^( astro:assets| virtual:astro:get-image)$/ },
+            handler: [Function: handler]
+          },
+          buildStart: [Function: buildStart],
+          renderChunk: [AsyncFunction: renderChunk]
+        },
+        {
+          name: 'astro:fonts',
+          buildStart: [AsyncFunction: buildStart],
+          configureServer: [AsyncFunction: configureServer],
+          resolveId: {
+            filter: {
+              id: /^(virtual:astro:assets\/fonts\/internal|virtual:astro:assets\/fonts\/runtime|virtual:astro:assets\/fonts\/runtime\/font-file-url-resolver)$/
+            },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: /^( virtual:astro:assets\/fonts\/internal| virtual:astro:assets\/fonts\/runtime| virtual:astro:assets\/fonts\/runtime\/font-file-url-resolver)$/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          buildEnd: [AsyncFunction: buildEnd]
+        },
+        {
+          name: 'astro:image-styles',
+          resolveId: {
+            filter: { id: /^virtual:astro:image-styles.css$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:image-styles.css$/ },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:prefetch',
+          resolveId: {
+            filter: { id: /^astro:prefetch$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ astro:prefetch$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: { id: /astro\/dist\/prefetch\/index.js/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:transitions',
+          resolveId: {
+            filter: { id: /^(astro:transitions|astro:transitions\/client)$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^( astro:transitions| astro:transitions\/client)$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: { id: /ClientRouter\.astro.*\.ts$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:dev-toolbar',
+          config: [Function: config],
+          resolveId: {
+            filter: { id: /^astro:toolbar:internal$/ },
+            handler: [Function: handler]
+          },
+          configureServer: [Function: configureServer],
+          load: {
+            filter: { id: /^ astro:toolbar:internal$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:chromedevtools',
+          configureServer: [Function: configureServer]
+        },
+        {
+          name: 'astro:vite-plugin-env',
+          config: [Function: config],
+          configResolved: [Function: configResolved],
+          transform: {
+            filter: {
+              id: {
+                exclude: [
+                  /.*\.(html|htm|json)$/,
+                  /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/
+                ]
+              },
+              code: /import\.meta\.env/
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:define',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: { handler: [Function: handler] }
+        },
+        {
+          name: 'vite:css-post',
+          renderStart: [Function: renderStart],
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          generateBundle: [AsyncFunction: generateBundle]
+        },
+        {
+          name: 'vite:dynamic-import-vars',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                exclude: /^C:\\Users\\92760\\Desktop\\githubdailyblog\\node_modules\\vite\\dist\\client\\client\.mjs$/
+              },
+              code: /\bimport\s*[(/]/
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:import-glob',
+          applyToEnvironment: [Function: applyToEnvironment],
+          buildStart: [Function: buildStart],
+          transform: {
+            filter: { code: 'import.meta.glob' },
+            handler: [AsyncFunction: handler]
+          },
+          hotUpdate: [Function: hotUpdate]
+        },
+        {
+          name: '@astro/plugin-pages',
+          enforce: 'post',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: { id: /^virtual:astro:pages$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:pages$/ },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:scripts:page-ssr',
+          enforce: 'post',
+          transform: [Function: transform]
+        },
+        {
+          name: 'astro:server-islands',
+          enforce: 'post',
+          api: { hasServerIslands: [Function: hasServerIslands] },
+          config: [Function: config],
+          buildStart: [Function: buildStart],
+          configureServer: [Function: configureServer],
+          resolveId: {
+            filter: { id: /^virtual:astro:server-island-manifest$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:server-island-manifest$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: [
+                  /\.(astro|mdx)$/,
+                  /^ virtual:astro:server-island-manifest$/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: [Function: renderChunk]
+        },
+        {
+          name: 'astro:hmr-reload',
+          enforce: 'post',
+          hotUpdate: { order: 'post', handler: [Function: handler] }
+        },
+        {
+          name: 'vite:client-inject',
+          applyToEnvironment: [Function: applyToEnvironment],
+          buildStart: [AsyncFunction: buildStart],
+          transform: [Function: transform]
+        },
+        {
+          name: 'vite:css-analysis',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:import-analysis',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: [AsyncFunction: transform]
+        }
+      ],
+      optimizeDepsPluginNames: []
+    },
+    astro: {
+      input: undefined,
+      define: {
+        'import.meta.env.SITE': 'undefined',
+        'import.meta.env.BASE_URL': '"/"',
+        'import.meta.env.ASSETS_PREFIX': 'undefined'
+      },
+      resolve: {
+        externalConditions: [ 'node', 'module-sync' ],
+        extensions: [
+          '.mjs',  '.js',
+          '.mts',  '.ts',
+          '.jsx',  '.tsx',
+          '.json'
+        ],
+        dedupe: [ 'astro' ],
+        noExternal: [
+          'astro',
+          'astro/components',
+          '@nanostores/preact',
+          '@fontsource/*',
+          'neotraverse'
+        ],
+        external: [],
+        preserveSymlinks: false,
+        tsconfigPaths: true,
+        alias: [
+          { find: 'randombytes', replacement: 'randombytes/browser' },
+          {
+            find: /^astro$/,
+            replacement: 'C:\\Users\\92760\\Desktop\\githubdailyblog\\node_modules\\astro\\dist\\types\\public\\index.js'
+          },
+          {
+            find: 'astro:middleware',
+            replacement: 'astro/virtual-modules/middleware.js'
+          },
+          { find: 'astro:schema', replacement: 'astro/zod' },
+          { find: 'astro:components', replacement: 'astro/components' },
+          {
+            find: /^\/?@vite\/env/,
+            replacement: '/@fs/C:/Users/92760/Desktop/githubdailyblog/node_modules/vite/dist/client/env.mjs'
+          },
+          {
+            find: /^\/?@vite\/client/,
+            replacement: '/@fs/C:/Users/92760/Desktop/githubdailyblog/node_modules/vite/dist/client/client.mjs'
+          }
+        ],
+        mainFields: [ 'module', 'jsnext:main', 'jsnext' ],
+        conditions: [ 'module', 'node', 'development|production', 'astro' ],
+        builtins: [
+          '_http_agent',         '_http_client',        '_http_common',
+          '_http_incoming',      '_http_outgoing',      '_http_server',
+          '_stream_duplex',      '_stream_passthrough', '_stream_readable',
+          '_stream_transform',   '_stream_wrap',        '_stream_writable',
+          '_tls_common',         '_tls_wrap',           'assert',
+          'assert/strict',       'async_hooks',         'buffer',
+          'child_process',       'cluster',             'console',
+          'constants',           'crypto',              'dgram',
+          'diagnostics_channel', 'dns',                 'dns/promises',
+          'domain',              'events',              'fs',
+          'fs/promises',         'http',                'http2',
+          'https',               'inspector',           'inspector/promises',
+          'module',              'net',                 'os',
+          'path',                'path/posix',          'path/win32',
+          'perf_hooks',          'process',             'punycode',
+          'querystring',         'readline',            'readline/promises',
+          'repl',                'stream',              'stream/consumers',
+          'stream/promises',     'stream/web',          'string_decoder',
+          'sys',                 'timers',              'timers/promises',
+          'tls',                 'trace_events',        'tty',
+          'url',                 'util',                'util/types',
+          'v8',                  'vm',                  'wasi',
+          'worker_threads',      'zlib',                /^node:/,
+          /^bun:/
+        ]
+      },
+      keepProcessEnv: true,
+      consumer: 'server',
+      optimizeDeps: {
+        include: [],
+        exclude: [],
+        needsInterop: [],
+        rolldownOptions: { resolve: { symlinks: true }, output: { topLevelVar: true } },
+        extensions: [],
+        disabled: undefined,
+        holdUntilCrawlEnd: true,
+        force: false,
+        ignoreOutdatedRequests: false,
+        noDiscovery: true,
+        rollupOptions: [Getter/Setter],
+        esbuildOptions: { preserveSymlinks: false }
+      },
+      dev: {
+        warmup: [],
+        sourcemap: { js: true },
+        sourcemapIgnoreList: [Function: isInNodeModules],
+        preTransformRequests: false,
+        createEnvironment: [Function: defaultCreateDevEnvironment],
+        recoverable: false,
+        moduleRunnerTransform: true
+      },
+      build: {
+        target: [
+          'chrome111',
+          'edge111',
+          'firefox114',
+          'safari16.4',
+          'ios16.4'
+        ],
+        polyfillModulePreload: true,
+        modulePreload: { polyfill: true },
+        outDir: 'dist',
+        assetsDir: '_astro',
+        assetsInlineLimit: 4096,
+        sourcemap: false,
+        terserOptions: {},
+        chunkImportMap: false,
+        rolldownOptions: { platform: 'node' },
+        commonjsOptions: { include: [ /node_modules/ ], extensions: [ '.js', '.cjs' ] },
+        dynamicImportVarsOptions: { exclude: [ /node_modules/ ] },
+        write: true,
+        emptyOutDir: null,
+        copyPublicDir: true,
+        license: false,
+        manifest: false,
+        lib: false,
+        ssrManifest: false,
+        ssrEmitAssets: false,
+        reportCompressedSize: true,
+        chunkSizeWarningLimit: 500,
+        watch: null,
+        cssCodeSplit: true,
+        minify: false,
+        rollupOptions: [Getter/Setter],
+        ssr: true,
+        emitAssets: false,
+        createEnvironment: [Function: createEnvironment],
+        cssTarget: [
+          'chrome111',
+          'edge111',
+          'firefox114',
+          'safari16.4',
+          'ios16.4'
+        ],
+        cssMinify: 'lightningcss'
+      },
+      isBundled: false,
+      plugins: [
+        {
+          name: 'vite:watch-package-data',
+          buildStart: [Function: buildStart],
+          buildEnd: [Function: buildEnd],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'alias',
+          buildStart: [AsyncFunction: buildStart],
+          resolveId: [Function: resolveId],
+          applyToEnvironment: [Function: applyToEnvironment]
+        },
+        {
+          name: 'virtual:astro:manifest',
+          enforce: 'pre',
+          configEnvironment: [Function: configEnvironment],
+          configureServer: [Function: configureServer],
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: {
+              id: /^(virtual:astro:manifest|#astro-internal\/ambient-manifest)$/
+            },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:manifest$/ },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:plugin-renderers',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^virtual:astro:renderers$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:renderers$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:static-paths',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^astro:static-paths$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ astro:static-paths$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:build',
+          enforce: 'pre',
+          configEnvironment: [AsyncFunction: configEnvironment],
+          configResolved: [AsyncFunction: configResolved],
+          configureServer: [Function: configureServer],
+          buildStart: [Function: buildStart],
+          load: {
+            filter: { id: /(?:\?|&)astro(?:&|=|$)/ },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: [ /\.astro$/, /\.astro\?/ ],
+                exclude: [
+                  /(?:\?|&)(?:url|raw|direct)(?:&|$)/,
+                  /(?:\?|&)astro(?:&|=|$)/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          handleHotUpdate: [AsyncFunction: handleHotUpdate]
+        },
+        {
+          name: 'astro-env-plugin',
+          enforce: 'pre',
+          config: [Function: config],
+          buildStart: [Function: buildStart],
+          resolveId: {
+            filter: {
+              id: /^(astro:env\/client|astro:env\/server|virtual:astro:env\/internal)$/
+            },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: /^( astro:env\/client| astro:env\/server| virtual:astro:env\/internal)$/
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          enforce: 'pre',
+          name: 'astro:markdown',
+          buildEnd: [Function: buildEnd],
+          resolveId: {
+            filter: { id: /^[^/]/ },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: {
+              id: {
+                include: /\.(markdown|mdown|mkdn|mkd|mdwn|md)(\?|$)/,
+                exclude: /(?:\?|&)(?:url|raw|direct)(?:&|$)/
+              }
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:head-metadata',
+          enforce: 'pre',
+          apply: 'serve',
+          configureServer: [Function: configureServer],
+          load: [Function: load],
+          resolveId: [Function: resolveId],
+          transform: [Function: transform]
+        },
+        {
+          name: 'astro-content-virtual-mod-plugin',
+          enforce: 'pre',
+          config: [Function: config],
+          buildStart: [Function: buildStart],
+          resolveId: {
+            filter: {
+              id: /^(astro:content|astro:data-layer-content|astro:content-module-imports|astro:asset-imports)$|^astro:data-layer-content-chunk:|(?:\?|&)astroContentModuleFlag(?:&|=|$)/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: {
+              id: /^( astro:content| astro:data-layer-content| astro:asset-imports| astro:content-module-imports)$|^ astro:data-layer-content-chunk:/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          configureServer: [Function: configureServer]
+        },
+        {
+          name: 'astro:content-asset-propagation',
+          enforce: 'pre',
+          resolveId: {
+            filter: {
+              id: /(?:\?|&)(?:astroContentImageFlag|astroRenderContent)(?:&|=|$)/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          configureServer: [Function: configureServer],
+          transform: {
+            filter: { id: /(?:\?|&)astroPropagatedAssets(?:&|=|$)/ },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:assets:esm',
+          enforce: 'pre',
+          config: [Function: config],
+          configResolved: [Function: configResolved],
+          load: {
+            filter: { id: /\.(jpeg|jpg|png|apng|tiff|webp|gif|svg|avif)/i },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:vite-plugin-file-url',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^file:\/\// },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:i18n',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^astro:i18n$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:actions',
+          enforce: 'pre',
+          resolveId: {
+            filter: {
+              id: /^(astro:actions|virtual:astro:actions\/options|virtual:astro:actions\/entrypoint)$/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          configureServer: [AsyncFunction: configureServer],
+          load: {
+            filter: {
+              id: /^( astro:actions| virtual:astro:actions\/noop-entrypoint| virtual:astro:actions\/entrypoint| virtual:astro:actions\/options)$/
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'virtual:astro:session-driver',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^virtual:astro:session-driver$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:session-driver$/ },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:session-provider',
+          enforce: 'pre',
+          resolveId: [AsyncFunction: resolveId]
+        },
+        {
+          name: 'astro:container',
+          enforce: 'pre',
+          resolveId: {
+            filter: { id: /^(astro:container)$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:modulepreload-polyfill',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: { id: /^vite\/modulepreload\-polyfill$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ vite\/modulepreload\-polyfill\.js$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:resolve-builtin:get-environment',
+          buildStart: [Function: buildStart],
+          perEnvironmentStartEndDuringDev: true
+        },
+        BuiltinPlugin {
+          name: 'builtin:vite-resolve',
+          _options: {
+            resolveOptions: {
+              isBuild: false,
+              isProduction: true,
+              asSrc: true,
+              preferRelative: false,
+              isRequire: undefined,
+              root: 'C:/Users/92760/Desktop/githubdailyblog',
+              scan: false,
+              mainFields: [ 'module', 'jsnext:main', 'jsnext', 'main' ],
+              conditions: [ 'module', 'node', 'development|production', 'astro' ],
+              externalConditions: [ 'node', 'module-sync' ],
+              extensions: [
+                '.mjs',  '.js',
+                '.mts',  '.ts',
+                '.jsx',  '.tsx',
+                '.json'
+              ],
+              tryIndex: true,
+              tryPrefix: undefined,
+              preserveSymlinks: false,
+              tsconfigPaths: true
+            },
+            environmentConsumer: 'server',
+            environmentName: 'astro',
+            builtins: [
+              '_http_agent',
+              '_http_client',
+              '_http_common',
+              '_http_incoming',
+              '_http_outgoing',
+              '_http_server',
+              '_stream_duplex',
+              '_stream_passthrough',
+              '_stream_readable',
+              '_stream_transform',
+              '_stream_wrap',
+              '_stream_writable',
+              '_tls_common',
+              '_tls_wrap',
+              'assert',
+              'assert/strict',
+              'async_hooks',
+              'buffer',
+              'child_process',
+              'cluster',
+              'console',
+              'constants',
+              'crypto',
+              'dgram',
+              'diagnostics_channel',
+              'dns',
+              'dns/promises',
+              'domain',
+              'events',
+              'fs',
+              'fs/promises',
+              'http',
+              'http2',
+              'https',
+              'inspector',
+              'inspector/promises',
+              'module',
+              'net',
+              'os',
+              'path',
+              'path/posix',
+              'path/win32',
+              'perf_hooks',
+              'process',
+              'punycode',
+              'querystring',
+              'readline',
+              'readline/promises',
+              'repl',
+              'stream',
+              'stream/consumers',
+              'stream/promises',
+              'stream/web',
+              'string_decoder',
+              'sys',
+              'timers',
+              'timers/promises',
+              'tls',
+              'trace_events',
+              'tty',
+              'url',
+              'util',
+              'util/types',
+              'v8',
+              'vm',
+              'wasi',
+              'worker_threads',
+              'zlib',
+              /^node:/,
+              /^bun:/
+            ],
+            external: [],
+            noExternal: [
+              'astro',
+              'astro/components',
+              '@nanostores/preact',
+              '@fontsource/*',
+              'neotraverse'
+            ],
+            dedupe: [ 'astro' ],
+            disableCache: false,
+            legacyInconsistentCjsInterop: undefined,
+            finalizeBareSpecifier: undefined,
+            finalizeOtherSpecifiers: undefined,
+            resolveSubpathImports: [Function: resolveSubpathImports],
+            onWarn: [AsyncFunction: onWarn],
+            yarnPnp: false
+          },
+          enforce: undefined,
+          getOrder: [AsyncFunction: wrappedHook],
+          load: [AsyncFunction: wrappedHook],
+          resolveId: [AsyncFunction: wrappedHook],
+          transform: [AsyncFunction: wrappedHook],
+          watchChange: [AsyncFunction: wrappedHook],
+          perEnvironmentWatchChangeDuringDev: true
+        },
+        {
+          name: 'vite:html-inline-proxy',
+          resolveId: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /[?&]html-proxy\b/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:css',
+          buildStart: [Function: buildStart],
+          buildEnd: [AsyncFunction: buildEnd],
+          load: {
+            filter: {
+              id: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/
+            },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'builtin:oxc-runtime',
+          _options: undefined,
+          enforce: undefined,
+          getOrder: [AsyncFunction: wrappedHook],
+          load: { handler: [AsyncFunction: wrappedHook], order: 'pre' },
+          resolveId: { handler: [AsyncFunction: wrappedHook], order: 'pre' },
+          transform: [AsyncFunction: wrappedHook],
+          watchChange: [AsyncFunction: wrappedHook],
+          applyToEnvironment: [Function: applyToEnvironment]
+        },
+        {
+          name: 'vite:oxc',
+          applyToEnvironment: [Function: applyToEnvironment],
+          configureServer: [Function: configureServer],
+          transform: [AsyncFunction: transform]
+        },
+        BuiltinPlugin {
+          name: 'builtin:vite-json',
+          _options: { namedExports: true, stringify: 'auto', minify: false },
+          enforce: undefined,
+          getOrder: [AsyncFunction: wrappedHook],
+          load: [AsyncFunction: wrappedHook],
+          resolveId: [AsyncFunction: wrappedHook],
+          transform: [AsyncFunction: wrappedHook],
+          watchChange: [AsyncFunction: wrappedHook]
+        },
+        {
+          name: 'vite:wasm-helper',
+          resolveId: {
+            filter: { id: /^ vite\/wasm\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: [
+                /^ vite\/wasm\-helper\.js$/,
+                /(?<![?#].*)\.wasm\?init/,
+                /(?<![?#].*)\.wasm$/,
+                /[?&]vite-wasm-instance(?:&|$)/
+              ]
+            },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: {
+            filter: { code: /__VITE_WASM_INIT__([\w$]+)__/g },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:worker',
+          buildStart: [Function: buildStart],
+          load: {
+            filter: { id: /(?:\?|&)(worker|sharedworker)(?:&|$)/ },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: { id: /(?:\?|&)worker_file&type=(\w+)(?:&|$)/ },
+            handler: [Function: handler]
+          },
+          generateBundle: [Function: generateBundle],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'vite:asset',
+          perEnvironmentStartEndDuringDev: true,
+          buildStart: [Function: buildStart],
+          resolveId: {
+            filter: {
+              id: [
+                /(\?|&)url(?:&|$)/,
+                /\.(apng|bmp|png|jpe?g|jfif|pjpeg|pjp|gif|svg|ico|webp|avif|cur|jxl|mp4|webm|ogg|mp3|wav|flac|aac|opus|mov|m4a|vtt|woff2?|eot|ttf|otf|webmanifest|pdf|txt)(\?.*)?$/i
+              ]
+            },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: {
+                include: [
+                  /(\?|&)raw(?:&|$)/,
+                  /(\?|&)url(?:&|$)/,
+                  /\.(apng|bmp|png|jpe?g|jfif|pjpeg|pjp|gif|svg|ico|webp|avif|cur|jxl|mp4|webm|ogg|mp3|wav|flac|aac|opus|mov|m4a|vtt|woff2?|eot|ttf|otf|webmanifest|pdf|txt)(\?.*)?$/i
+                ],
+                exclude: /^\0/
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          generateBundle: [Function: generateBundle],
+          watchChange: [Function: watchChange]
+        },
+        {
+          name: 'astro:watcher-max-listeners',
+          configureServer: [Function: configureServer]
+        },
+        {
+          name: 'astro:routes',
+          configureServer: [Function: configureServer],
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: { id: /^virtual:astro:routes$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:routes$/ },
+            handler: [Function: handler]
+          },
+          transform: [AsyncFunction: transform],
+          handleHotUpdate: [AsyncFunction: handleHotUpdate]
+        },
+        {
+          name: 'astro-manifest-plugin',
+          resolveId: {
+            filter: { id: /^(astro:config\/server|astro:config\/client)$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^( astro:config\/server| astro:config\/client)$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:environment',
+          configEnvironment: [Function: configEnvironment]
+        },
+        {
+          name: 'astro:build:normal',
+          resolveId: {
+            filter: { id: /(?:\?|&)astro(?:&|=|$)/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:scripts',
+          config: [Function: config],
+          resolveId: {
+            filter: { id: /^astro:scripts\// },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: /^(astro:scripts\/before-hydration.js|astro:scripts\/page.js|astro:scripts\/page-ssr.js)$/
+            },
+            handler: [Function: handler]
+          },
+          buildStart: [Function: buildStart]
+        },
+        {
+          name: 'astro:app',
+          configResolved: [Function: configResolved],
+          resolveId: {
+            filter: { id: /^virtual:astro:app$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:app$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:server-app',
+          resolveId: {
+            filter: { id: /^virtual:astro:server-app$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: '@astro/plugin-fetchable',
+          applyToEnvironment: [Function: applyToEnvironment],
+          configureServer: [Function: configureServer],
+          resolveId: {
+            filter: { id: /^virtual:astro:fetchable$/ },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:fetchable$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:adapter-config',
+          config: [Function: config],
+          resolveId: {
+            filter: { id: /^virtual:astro:adapter-config\/client$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:adapter-config\/client$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:html',
+          options: [Function: options],
+          transform: {
+            filter: { id: /\.html$/ },
+            handler: [AsyncFunction: transform]
+          }
+        },
+        {
+          name: 'astro:integration-container',
+          configureServer: [AsyncFunction: configureServer],
+          buildStart: [AsyncFunction: buildStart]
+        },
+        {
+          name: 'astro:content-imports',
+          config: [Function: config],
+          buildStart: [AsyncFunction: buildStart],
+          transform: {
+            filter: {
+              id: /(?:\?|&)(?:astroDataCollectionEntry|astroContentCollectionEntry)(?:&|=|$)/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          configureServer: [Function: configureServer]
+        },
+        {
+          name: '@astro/plugin-middleware',
+          applyToEnvironment: [Function: applyToEnvironment],
+          hotUpdate: { handler: [Function: handler] },
+          resolveId: {
+            filter: { id: /^virtual:astro:middleware$/ },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: { id: /^( noop-middleware| virtual:astro:middleware)$/ },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:assets',
+          config: [Function: config],
+          resolveId: {
+            filter: {
+              id: /^(virtual:image-service|astro:assets|virtual:astro:get-image)$/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: { id: /^( astro:assets| virtual:astro:get-image)$/ },
+            handler: [Function: handler]
+          },
+          buildStart: [Function: buildStart],
+          renderChunk: [AsyncFunction: renderChunk]
+        },
+        {
+          name: 'astro:fonts',
+          buildStart: [AsyncFunction: buildStart],
+          configureServer: [AsyncFunction: configureServer],
+          resolveId: {
+            filter: {
+              id: /^(virtual:astro:assets\/fonts\/internal|virtual:astro:assets\/fonts\/runtime|virtual:astro:assets\/fonts\/runtime\/font-file-url-resolver)$/
+            },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: /^( virtual:astro:assets\/fonts\/internal| virtual:astro:assets\/fonts\/runtime| virtual:astro:assets\/fonts\/runtime\/font-file-url-resolver)$/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          buildEnd: [AsyncFunction: buildEnd]
+        },
+        {
+          name: 'astro:image-styles',
+          resolveId: {
+            filter: { id: /^virtual:astro:image-styles.css$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:image-styles.css$/ },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:prefetch',
+          resolveId: {
+            filter: { id: /^astro:prefetch$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ astro:prefetch$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: { id: /astro\/dist\/prefetch\/index.js/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:transitions',
+          resolveId: {
+            filter: { id: /^(astro:transitions|astro:transitions\/client)$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^( astro:transitions| astro:transitions\/client)$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: { id: /ClientRouter\.astro.*\.ts$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:dev-toolbar',
+          config: [Function: config],
+          resolveId: {
+            filter: { id: /^astro:toolbar:internal$/ },
+            handler: [Function: handler]
+          },
+          configureServer: [Function: configureServer],
+          load: {
+            filter: { id: /^ astro:toolbar:internal$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:chromedevtools',
+          configureServer: [Function: configureServer]
+        },
+        {
+          name: 'astro:vite-plugin-env',
+          config: [Function: config],
+          configResolved: [Function: configResolved],
+          transform: {
+            filter: {
+              id: {
+                exclude: [
+                  /.*\.(html|htm|json)$/,
+                  /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/
+                ]
+              },
+              code: /import\.meta\.env/
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:define',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: { handler: [Function: handler] }
+        },
+        {
+          name: 'vite:css-post',
+          renderStart: [Function: renderStart],
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          generateBundle: [AsyncFunction: generateBundle]
+        },
+        {
+          name: 'vite:dynamic-import-vars',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ vite\/dynamic\-import\-helper\.js$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                exclude: /^C:\\Users\\92760\\Desktop\\githubdailyblog\\node_modules\\vite\\dist\\client\\client\.mjs$/
+              },
+              code: /\bimport\s*[(/]/
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'vite:import-glob',
+          applyToEnvironment: [Function: applyToEnvironment],
+          buildStart: [Function: buildStart],
+          transform: {
+            filter: { code: 'import.meta.glob' },
+            handler: [AsyncFunction: handler]
+          },
+          hotUpdate: [Function: hotUpdate]
+        },
+        {
+          name: 'astro:scripts:page-ssr',
+          enforce: 'post',
+          transform: [Function: transform]
+        },
+        {
+          name: 'astro:server-islands',
+          enforce: 'post',
+          api: { hasServerIslands: [Function: hasServerIslands] },
+          config: [Function: config],
+          buildStart: [Function: buildStart],
+          configureServer: [Function: configureServer],
+          resolveId: {
+            filter: { id: /^virtual:astro:server-island-manifest$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:server-island-manifest$/ },
+            handler: [Function: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: [
+                  /\.(astro|mdx)$/,
+                  /^ virtual:astro:server-island-manifest$/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          renderChunk: [Function: renderChunk]
+        },
+        {
+          name: 'astro:hmr-reload',
+          enforce: 'post',
+          hotUpdate: { order: 'post', handler: [Function: handler] }
+        },
+        {
+          name: 'vite:client-inject',
+          applyToEnvironment: [Function: applyToEnvironment],
+          buildStart: [AsyncFunction: buildStart],
+          transform: [Function: transform]
+        },
+        {
+          name: 'vite:css-analysis',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: {
+            filter: {
+              id: {
+                include: /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/,
+                exclude: [
+                  /[?&]commonjs-proxy/,
+                  /[?&](?:worker|sharedworker|raw|url)\b/
+                ]
+              }
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'vite:import-analysis',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: [AsyncFunction: transform]
+        }
+      ],
+      optimizeDepsPluginNames: []
+    }
+  },
+  optimizeDeps: {
+    include: [
+      'astro > aria-query',
+      'astro > axobject-query',
+      'astro > html-escaper',
+      'astro/runtime/client/dev-toolbar/entrypoint.js'
+    ],
+    exclude: [
+      'astro:*',
+      'virtual:astro:*',
+      'astro/virtual-modules/prefetch.js'
+    ],
+    needsInterop: [],
+    rolldownOptions: { resolve: { symlinks: true }, output: { topLevelVar: true } },
+    extensions: [],
+    disabled: undefined,
+    holdUntilCrawlEnd: true,
+    force: false,
+    ignoreOutdatedRequests: false,
+    noDiscovery: true,
+    entries: [
+      'C:/Users/92760/Desktop/githubdailyblog/src/**/*.{jsx,tsx,vue,svelte,html}'
+    ],
+    rollupOptions: [Getter/Setter],
+    esbuildOptions: { preserveSymlinks: false }
+  },
+  ssr: {
+    target: 'node',
+    optimizeDeps: {
+      esbuildOptions: { preserveSymlinks: false },
+      include: [],
+      exclude: [],
+      needsInterop: [],
+      rolldownOptions: { resolve: { symlinks: true }, output: { topLevelVar: true } },
+      extensions: [],
+      holdUntilCrawlEnd: true,
+      force: false,
+      ignoreOutdatedRequests: false,
+      noDiscovery: true,
+      rollupOptions: { resolve: { symlinks: true }, output: { topLevelVar: true } }
+    },
+    external: [],
+    noExternal: [
+      'astro',
+      'astro/components',
+      '@nanostores/preact',
+      '@fontsource/*',
+      'neotraverse'
+    ],
+    resolve: {
+      conditions: [ 'module', 'node', 'development|production', 'astro' ],
+      externalConditions: [ 'node', 'module-sync' ]
+    }
+  },
+  logLevel: 'silent',
+  worker: {
+    format: 'iife',
+    plugins: '() => plugins',
+    rollupOptions: {},
+    rolldownOptions: {}
+  },
+  configFileDependencies: [],
+  inlineConfig: {
+    configFile: false,
+    mode: 'production',
+    cacheDir: 'C:\\Users\\92760\\Desktop\\githubdailyblog\\node_modules\\.vite\\',
+    clearScreen: false,
+    customLogger: {
+      hasWarned: false,
+      info: [Function: info],
+      warn: [Function: warn],
+      warnOnce: [Function: warnOnce],
+      error: [Function: error],
+      clearScreen: [Function: clearScreen],
+      hasErrorLogged: [Function: hasErrorLogged]
+    },
+    appType: 'custom',
+    plugins: [
+      {
+        name: 'astro:watcher-max-listeners',
+        configureServer: [Function: configureServer]
+      },
+      {
+        name: 'virtual:astro:manifest',
+        enforce: 'pre',
+        configEnvironment: [Function: configEnvironment],
+        configureServer: [Function: configureServer],
+        applyToEnvironment: [Function: applyToEnvironment],
+        resolveId: {
+          filter: {
+            id: /^(virtual:astro:manifest|#astro-internal\/ambient-manifest)$/
+          },
+          handler: [Function: handler]
+        },
+        load: {
+          filter: { id: /^ virtual:astro:manifest$/ },
+          handler: [AsyncFunction: handler]
+        }
+      },
+      {
+        name: 'astro:plugin-renderers',
+        enforce: 'pre',
+        resolveId: {
+          filter: { id: /^virtual:astro:renderers$/ },
+          handler: [Function: handler]
+        },
+        load: {
+          filter: { id: /^ virtual:astro:renderers$/ },
+          handler: [Function: handler]
+        }
+      },
+      {
+        name: 'astro:static-paths',
+        enforce: 'pre',
+        resolveId: {
+          filter: { id: /^astro:static-paths$/ },
+          handler: [Function: handler]
+        },
+        load: {
+          filter: { id: /^ astro:static-paths$/ },
+          handler: [Function: handler]
+        }
+      },
+      {
+        name: 'astro:routes',
+        configureServer: [Function: configureServer],
+        applyToEnvironment: [Function: applyToEnvironment],
+        resolveId: {
+          filter: { id: /^virtual:astro:routes$/ },
+          handler: [Function: handler]
+        },
+        load: {
+          filter: { id: /^ virtual:astro:routes$/ },
+          handler: [Function: handler]
+        },
+        transform: [AsyncFunction: transform],
+        handleHotUpdate: [AsyncFunction: handleHotUpdate]
+      },
+      {
+        name: 'astro-manifest-plugin',
+        resolveId: {
+          filter: { id: /^(astro:config\/server|astro:config\/client)$/ },
+          handler: [Function: handler]
+        },
+        load: {
+          filter: { id: /^( astro:config\/server| astro:config\/client)$/ },
+          handler: [Function: handler]
+        }
+      },
+      {
+        name: 'astro:environment',
+        configEnvironment: [Function: configEnvironment]
+      },
+      {
+        name: '@astro/plugin-page',
+        applyToEnvironment: [Function: applyToEnvironment],
+        resolveId: {
+          filter: { id: /^virtual:astro:page:/ },
+          handler: [Function: handler]
+        },
+        load: {
+          filter: { id: /^ virtual:astro:page:/ },
+          handler: [Function: handler]
+        }
+      },
+      {
+        name: '@astro/plugin-pages',
+        enforce: 'post',
+        applyToEnvironment: [Function: applyToEnvironment],
+        resolveId: {
+          filter: { id: /^virtual:astro:pages$/ },
+          handler: [Function: handler]
+        },
+        load: {
+          filter: { id: /^ virtual:astro:pages$/ },
+          handler: [AsyncFunction: handler]
+        }
+      },
+      null,
+      [],
+      [
+        {
+          name: 'astro:build:css-hmr',
+          enforce: 'pre',
+          applyToEnvironment: [Function: applyToEnvironment],
+          transform: {
+            filter: {
+              id: {
+                include: [ /(?:\?|&)astro(?:&|=|$)/ ],
+                exclude: [ /(?:\?|&)(?:url|raw|direct)(?:&|$)/ ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:build',
+          enforce: 'pre',
+          configEnvironment: [AsyncFunction: configEnvironment],
+          configResolved: [AsyncFunction: configResolved],
+          configureServer: [Function: configureServer],
+          buildStart: [Function: buildStart],
+          load: {
+            filter: { id: /(?:\?|&)astro(?:&|=|$)/ },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: [ /\.astro$/, /\.astro\?/ ],
+                exclude: [
+                  /(?:\?|&)(?:url|raw|direct)(?:&|$)/,
+                  /(?:\?|&)astro(?:&|=|$)/
+                ]
+              }
+            },
+            handler: [AsyncFunction: handler]
+          },
+          handleHotUpdate: [AsyncFunction: handleHotUpdate]
+        },
+        {
+          name: 'astro:build:normal',
+          resolveId: {
+            filter: { id: /(?:\?|&)astro(?:&|=|$)/ },
+            handler: [Function: handler]
+          }
+        }
+      ],
+      {
+        name: 'astro:scripts',
+        config: [Function: config],
+        resolveId: {
+          filter: { id: /^astro:scripts\// },
+          handler: [Function: handler]
+        },
+        load: {
+          filter: {
+            id: /^(astro:scripts\/before-hydration.js|astro:scripts\/page.js|astro:scripts\/page-ssr.js)$/
+          },
+          handler: [Function: handler]
+        },
+        buildStart: [Function: buildStart]
+      },
+      [
+        {
+          name: 'astro:app',
+          configResolved: [Function: configResolved],
+          resolveId: {
+            filter: { id: /^virtual:astro:app$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:app$/ },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'astro:server-app',
+          resolveId: {
+            filter: { id: /^virtual:astro:server-app$/ },
+            handler: [Function: handler]
+          }
+        }
+      ],
+      {
+        name: '@astro/plugin-fetchable',
+        applyToEnvironment: [Function: applyToEnvironment],
+        configureServer: [Function: configureServer],
+        resolveId: {
+          filter: { id: /^virtual:astro:fetchable$/ },
+          handler: [AsyncFunction: handler]
+        },
+        load: {
+          filter: { id: /^ virtual:astro:fetchable$/ },
+          handler: [Function: handler]
+        }
+      },
+      false,
+      false,
+      [
+        {
+          name: 'virtual:astro:dev-css',
+          configureServer: [AsyncFunction: configureServer],
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: {
+              id: /^(virtual:astro:dev-css|virtual:astro:dev-css:.*)$/
+            },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: /^( virtual:astro:dev-css| virtual:astro:dev-css:.*)$/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          transform: {
+            filter: {
+              id: {
+                include: [
+                  /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/
+                ],
+                exclude: [ /(?:\?|&)raw(?:&|$)/, /(?:\?|&)inline\b/ ]
+              }
+            },
+            handler: [Function: handler]
+          }
+        },
+        {
+          name: 'virtual:astro:dev-css-all',
+          applyToEnvironment: [Function: applyToEnvironment],
+          resolveId: {
+            filter: { id: /^virtual:astro:dev-css-all$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:dev-css-all$/ },
+            handler: [Function: handler]
+          }
+        }
+      ],
+      {
+        name: 'astro:vite-plugin-env',
+        config: [Function: config],
+        configResolved: [Function: configResolved],
+        transform: {
+          filter: {
+            id: {
+              exclude: [
+                /.*\.(html|htm|json)$/,
+                /\.(css|less|sass|scss|styl|stylus|pcss|postcss|sss)(?:$|\?)/
+              ]
+            },
+            code: /import\.meta\.env/
+          },
+          handler: [Function: handler]
+        }
+      },
+      {
+        name: 'astro-env-plugin',
+        enforce: 'pre',
+        config: [Function: config],
+        buildStart: [Function: buildStart],
+        resolveId: {
+          filter: {
+            id: /^(astro:env\/client|astro:env\/server|virtual:astro:env\/internal)$/
+          },
+          handler: [Function: handler]
+        },
+        load: {
+          filter: {
+            id: /^( astro:env\/client| astro:env\/server| virtual:astro:env\/internal)$/
+          },
+          handler: [Function: handler]
+        }
+      },
+      {
+        name: 'astro:adapter-config',
+        config: [Function: config],
+        resolveId: {
+          filter: { id: /^virtual:astro:adapter-config\/client$/ },
+          handler: [Function: handler]
+        },
+        load: {
+          filter: { id: /^ virtual:astro:adapter-config\/client$/ },
+          handler: [Function: handler]
+        }
+      },
+      {
+        enforce: 'pre',
+        name: 'astro:markdown',
+        buildEnd: [Function: buildEnd],
+        resolveId: { filter: { id: /^[^/]/ }, handler: [AsyncFunction: handler] },
+        load: {
+          filter: {
+            id: {
+              include: /\.(markdown|mdown|mkdn|mkd|mdwn|md)(\?|$)/,
+              exclude: /(?:\?|&)(?:url|raw|direct)(?:&|$)/
+            }
+          },
+          handler: [AsyncFunction: handler]
+        }
+      },
+      {
+        name: 'astro:html',
+        options: [Function: options],
+        transform: {
+          filter: { id: /\.html$/ },
+          handler: [AsyncFunction: transform]
+        }
+      },
+      {
+        name: 'astro:integration-container',
+        configureServer: [AsyncFunction: configureServer],
+        buildStart: [AsyncFunction: buildStart]
+      },
+      {
+        name: 'astro:scripts:page-ssr',
+        enforce: 'post',
+        transform: [Function: transform]
+      },
+      {
+        name: 'astro:head-metadata',
+        enforce: 'pre',
+        apply: 'serve',
+        configureServer: [Function: configureServer],
+        load: [Function: load],
+        resolveId: [Function: resolveId],
+        transform: [Function: transform]
+      },
+      {
+        name: 'astro-content-virtual-mod-plugin',
+        enforce: 'pre',
+        config: [Function: config],
+        buildStart: [Function: buildStart],
+        resolveId: {
+          filter: {
+            id: /^(astro:content|astro:data-layer-content|astro:content-module-imports|astro:asset-imports)$|^astro:data-layer-content-chunk:|(?:\?|&)astroContentModuleFlag(?:&|=|$)/
+          },
+          handler: [AsyncFunction: handler]
+        },
+        load: {
+          filter: {
+            id: /^( astro:content| astro:data-layer-content| astro:asset-imports| astro:content-module-imports)$|^ astro:data-layer-content-chunk:/
+          },
+          handler: [AsyncFunction: handler]
+        },
+        configureServer: [Function: configureServer]
+      },
+      [
+        {
+          name: 'astro:content-imports',
+          config: [Function: config],
+          buildStart: [AsyncFunction: buildStart],
+          transform: {
+            filter: {
+              id: /(?:\?|&)(?:astroDataCollectionEntry|astroContentCollectionEntry)(?:&|=|$)/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          configureServer: [Function: configureServer]
+        }
+      ],
+      {
+        name: 'astro:content-asset-propagation',
+        enforce: 'pre',
+        resolveId: {
+          filter: {
+            id: /(?:\?|&)(?:astroContentImageFlag|astroRenderContent)(?:&|=|$)/
+          },
+          handler: [AsyncFunction: handler]
+        },
+        configureServer: [Function: configureServer],
+        transform: {
+          filter: { id: /(?:\?|&)astroPropagatedAssets(?:&|=|$)/ },
+          handler: [AsyncFunction: handler]
+        }
+      },
+      {
+        name: '@astro/plugin-middleware',
+        applyToEnvironment: [Function: applyToEnvironment],
+        hotUpdate: { handler: [Function: handler] },
+        resolveId: {
+          filter: { id: /^virtual:astro:middleware$/ },
+          handler: [AsyncFunction: handler]
+        },
+        load: {
+          filter: { id: /^( noop-middleware| virtual:astro:middleware)$/ },
+          handler: [AsyncFunction: handler]
+        }
+      },
+      [
+        {
+          name: 'astro:assets',
+          config: [Function: config],
+          resolveId: {
+            filter: {
+              id: /^(virtual:image-service|astro:assets|virtual:astro:get-image)$/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          load: {
+            filter: { id: /^( astro:assets| virtual:astro:get-image)$/ },
+            handler: [Function: handler]
+          },
+          buildStart: [Function: buildStart],
+          renderChunk: [AsyncFunction: renderChunk]
+        },
+        {
+          name: 'astro:assets:esm',
+          enforce: 'pre',
+          config: [Function: config],
+          configResolved: [Function: configResolved],
+          load: {
+            filter: { id: /\.(jpeg|jpg|png|apng|tiff|webp|gif|svg|avif)/i },
+            handler: [AsyncFunction: handler]
+          }
+        },
+        {
+          name: 'astro:fonts',
+          buildStart: [AsyncFunction: buildStart],
+          configureServer: [AsyncFunction: configureServer],
+          resolveId: {
+            filter: {
+              id: /^(virtual:astro:assets\/fonts\/internal|virtual:astro:assets\/fonts\/runtime|virtual:astro:assets\/fonts\/runtime\/font-file-url-resolver)$/
+            },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: {
+              id: /^( virtual:astro:assets\/fonts\/internal| virtual:astro:assets\/fonts\/runtime| virtual:astro:assets\/fonts\/runtime\/font-file-url-resolver)$/
+            },
+            handler: [AsyncFunction: handler]
+          },
+          buildEnd: [AsyncFunction: buildEnd]
+        },
+        {
+          name: 'astro:image-styles',
+          resolveId: {
+            filter: { id: /^virtual:astro:image-styles.css$/ },
+            handler: [Function: handler]
+          },
+          load: {
+            filter: { id: /^ virtual:astro:image-styles.css$/ },
+            handler: [AsyncFunction: handler]
+          }
+        }
+      ],
+      {
+        name: 'astro:prefetch',
+        resolveId: {
+          filter: { id: /^astro:prefetch$/ },
+          handler: [Function: handler]
+        },
+        load: {
+          filter: { id: /^ astro:prefetch$/ },
+          handler: [Function: handler]
+        },
+        transform: {
+          filter: { id: /astro\/dist\/prefetch\/index.js/ },
+          handler: [Function: handler]
+        }
+      },
+      {
+        name: 'astro:transitions',
+        resolveId: {
+          filter: { id: /^(astro:transitions|astro:transitions\/client)$/ },
+          handler: [Function: handler]
+        },
+        load: {
+          filter: { id: /^( astro:transitions| astro:transitions\/client)$/ },
+          handler: [Function: handler]
+        },
+        transform: {
+          filter: { id: /ClientRouter\.astro.*\.ts$/ },
+          handler: [Function: handler]
+        }
+      },
+      {
+        name: 'astro:dev-toolbar',
+        config: [Function: config],
+        resolveId: {
+          filter: { id: /^astro:toolbar:internal$/ },
+          handler: [Function: handler]
+        },
+        configureServer: [Function: configureServer],
+        load: {
+          filter: { id: /^ astro:toolbar:internal$/ },
+          handler: [Function: handler]
+        }
+      },
+      {
+        name: 'astro:vite-plugin-file-url',
+        enforce: 'pre',
+        resolveId: { filter: { id: /^file:\/\// }, handler: [Function: handler] }
+      },
+      {
+        name: 'astro:i18n',
+        enforce: 'pre',
+        resolveId: {
+          filter: { id: /^astro:i18n$/ },
+          handler: [Function: handler]
+        }
+      },
+      {
+        name: 'astro:actions',
+        enforce: 'pre',
+        resolveId: {
+          filter: {
+            id: /^(astro:actions|virtual:astro:actions\/options|virtual:astro:actions\/entrypoint)$/
+          },
+          handler: [AsyncFunction: handler]
+        },
+        configureServer: [AsyncFunction: configureServer],
+        load: {
+          filter: {
+            id: /^( astro:actions| virtual:astro:actions\/noop-entrypoint| virtual:astro:actions\/entrypoint| virtual:astro:actions\/options)$/
+          },
+          handler: [AsyncFunction: handler]
+        }
+      },
+      {
+        name: 'astro:server-islands',
+        enforce: 'post',
+        api: { hasServerIslands: [Function: hasServerIslands] },
+        config: [Function: config],
+        buildStart: [Function: buildStart],
+        configureServer: [Function: configureServer],
+        resolveId: {
+          filter: { id: /^virtual:astro:server-island-manifest$/ },
+          handler: [Function: handler]
+        },
+        load: {
+          filter: { id: /^ virtual:astro:server-island-manifest$/ },
+          handler: [Function: handler]
+        },
+        transform: {
+          filter: {
+            id: {
+              include: [
+                /\.(astro|mdx)$/,
+                /^ virtual:astro:server-island-manifest$/
+              ]
+            }
+          },
+          handler: [AsyncFunction: handler]
+        },
+        renderChunk: [Function: renderChunk]
+      },
+      {
+        name: 'virtual:astro:session-driver',
+        enforce: 'pre',
+        resolveId: {
+          filter: { id: /^virtual:astro:session-driver$/ },
+          handler: [Function: handler]
+        },
+        load: {
+          filter: { id: /^ virtual:astro:session-driver$/ },
+          handler: [AsyncFunction: handler]
+        }
+      },
+      {
+        name: 'astro:session-provider',
+        enforce: 'pre',
+        resolveId: [AsyncFunction: resolveId]
+      },
+      undefined,
+      undefined,
+      {
+        name: 'astro:container',
+        enforce: 'pre',
+        resolveId: {
+          filter: { id: /^(astro:container)$/ },
+          handler: [Function: handler]
+        }
+      },
+      {
+        name: 'astro:hmr-reload',
+        enforce: 'post',
+        hotUpdate: { order: 'post', handler: [Function: handler] }
+      },
+      {
+        name: 'astro:chromedevtools',
+        configureServer: [Function: configureServer]
+      },
+      false
+    ],
+    publicDir: 'C:\\Users\\92760\\Desktop\\githubdailyblog\\public\\',
+    root: 'C:\\Users\\92760\\Desktop\\githubdailyblog\\',
+    envPrefix: 'PUBLIC_',
+    define: {
+      'import.meta.env.SITE': 'undefined',
+      'import.meta.env.BASE_URL': '"/"',
+      'import.meta.env.ASSETS_PREFIX': 'undefined'
+    },
+    server: {
+      hmr: false,
+      watch: { ignored: [ '**' ] },
+      middlewareMode: true,
+      ws: false
+    },
+    resolve: {
+      tsconfigPaths: true,
+      alias: [
+        { find: 'randombytes', replacement: 'randombytes/browser' },
+        {
+          find: /^astro$/,
+          replacement: 'C:\\Users\\92760\\Desktop\\githubdailyblog\\node_modules\\astro\\dist\\types\\public\\index.js'
+        },
+        {
+          find: 'astro:middleware',
+          replacement: 'astro/virtual-modules/middleware.js'
+        },
+        { find: 'astro:schema', replacement: 'astro/zod' },
+        { find: 'astro:components', replacement: 'astro/components' }
+      ],
+      conditions: [ 'module', 'browser', 'development|production', 'astro' ],
+      mainFields: undefined
+    },
+    build: {
+      assetsDir: '_astro',
+      rolldownOptions: undefined,
+      rollupOptions: [Getter/Setter]
+    },
+    environments: { astro: { dev: {} } },
+    optimizeDeps: {
+      noDiscovery: true,
+      rolldownOptions: undefined,
+      rollupOptions: [Getter/Setter]
+    },
+    ssr: {
+      external: [],
+      optimizeDeps: { rolldownOptions: undefined, rollupOptions: [Getter/Setter] }
+    },
+    logLevel: 'silent',
+    worker: { rolldownOptions: undefined, rollupOptions: [Getter/Setter] }
+  },
+  base: '/',
+  decodedBase: '/',
+  rawBase: '/',
+  command: 'serve',
+  isWorker: false,
+  mainConfig: null,
+  bundleChain: [],
+  isProduction: true,
+  css: {
+    transformer: 'postcss',
+    preprocessorMaxWorkers: true,
+    devSourcemap: false
+  },
+  json: { namedExports: true, stringify: 'auto' },
+  esbuild: { jsxDev: false, charset: 'utf8', legalComments: 'none' },
+  oxc: { jsx: { development: false } },
+  builder: undefined,
+  preview: {
+    port: 4173,
+    strictPort: false,
+    host: undefined,
+    allowedHosts: [],
+    https: undefined,
+    open: false,
+    proxy: undefined,
+    cors: {
+      origin: /^https?:\/\/(?:(?:[^:]+\.)?localhost|127\.0\.0\.1|\[::1\])(?::\d+)?$/
+    },
+    headers: {}
+  },
+  envDir: 'C:/Users/92760/Desktop/githubdailyblog',
+  env: { BASE_URL: '/', MODE: 'production', DEV: false, PROD: true },
+  assetsInclude: [Function: assetsInclude],
+  rawAssetsInclude: [],
+  logger: {
+    hasWarned: false,
+    info: [Function: info],
+    warn: [Function: warn],
+    warnOnce: [Function: warnOnce],
+    error: [Function: error],
+    clearScreen: [Function: clearScreen],
+    hasErrorLogged: [Function: hasErrorLogged]
+  },
+  packageCache: Map(1) {
+    'fnpd_C:/Users/92760/Desktop/githubdailyblog' => {
+      dir: 'C:/Users/92760/Desktop/githubdailyblog',
+      data: {
+        name: 'github-daily-blog',
+        type: 'module',
+        scripts: {
+          dev: 'astro dev',
+          build: 'astro build',
+          preview: 'astro preview',
+          check: 'astro check'
+        },
+        dependencies: {
+          '@astrojs/check': 'latest',
+          astro: 'latest',
+          typescript: 'latest',
+          zod: 'latest'
+        }
+      },
+      hasSideEffects: [Function: hasSideEffects],
+      setResolvedCache: [Function: setResolvedCache],
+      getResolvedCache: [Function: getResolvedCache]
+    },
+    set: [Function (anonymous)]
+  },
+  experimental: {
+    importGlobRestoreExtension: false,
+    renderBuiltUrl: undefined,
+    hmrPartialAccept: false,
+    bundledDev: false
+  },
+  future: undefined,
+  input: undefined,
+  dev: {
+    warmup: [],
+    sourcemap: { js: true },
+    sourcemapIgnoreList: [Function: isInNodeModules],
+    preTransformRequests: false,
+    createEnvironment: [Function: defaultCreateDevEnvironment],
+    recoverable: false,
+    moduleRunnerTransform: false
+  },
+  devtools: { config: { host: 'localhost' }, enabled: false },
+  webSocketToken: 'zrp7F4KwX716',
+  getSortedPlugins: [Function: getSortedPlugins],
+  getSortedPluginHooks: [Function: getSortedPluginHooks],
+  createResolver: [Function: createResolver],
+  fsDenyGlob: [Function: arrayMatcher],
+  safeModulePaths: Set(0) {},
+  [Symbol(vite:resolved-config)]: true
+}
+2026-08-30T11:03:46.744Z vite:resolve [33m11.56ms[39m [36mindex.html[39m -> [2mnull[22m
+2026-08-30T11:03:46.753Z vite:deps (client) Hash is consistent. Skipping. Use --force to override.
+2026-08-30T11:03:46.774Z vite:resolve [32m8.79ms[39m [36mindex.html[39m -> [2mnull[22m
+2026-08-30T11:03:46.777Z vite:resolve [32m1.26ms[39m [36mC:\Users\92760\Desktop\githubdailyblog\src\content.config.ts[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/src/content.config.ts[22m
+2026-08-30T11:03:46.787Z vite:load [32m6.91ms[39m [fs] [2mC:\Users\92760\Desktop\githubdailyblog\src\content.config.ts[22m
+2026-08-30T11:03:46.820Z vite:resolve [32m2.37ms[39m [36mastro:content[39m -> [2m astro:content[22m
+2026-08-30T11:03:46.823Z vite:import-analysis [33m17.40ms[39m [2m[1 imports rewritten] [2msrc/content.config.ts[22m[2m[22m
+2026-08-30T11:03:46.824Z vite:transform [33m35.58ms[39m [2mC:\Users\92760\Desktop\githubdailyblog\src\content.config.ts[22m
+2026-08-30T11:03:46.851Z vite:load [32m3.25ms[39m [plugin] [2m astro:content[22m
+2026-08-30T11:03:46.857Z vite:resolve [32m1.77ms[39m [36mastro/zod[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/zod.js[22m
+2026-08-30T11:03:46.858Z vite:resolve [32m3.33ms[39m [36mastro/content/runtime[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/content/runtime.js[22m
+2026-08-30T11:03:46.859Z vite:import-analysis [32m6.30ms[39m [2m[2 imports rewritten] [2m astro:content[22m[2m[22m
+2026-08-30T11:03:46.859Z vite:transform [32m8.22ms[39m [2m astro:content[22m
+2026-08-30T11:03:46.873Z vite:load [32m3.09ms[39m [fs] [2m/node_modules/astro/dist/content/runtime.js[22m
+2026-08-30T11:03:46.943Z vite:resolve [32m1.60ms[39m [36mastro:asset-imports[39m -> [2mC:\Users\92760\Desktop\githubdailyblog\.astro\content-assets.mjs[22m
+2026-08-30T11:03:46.943Z vite:resolve [33m16.37ms[39m [36mastro:asset-imports[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/.astro/content-assets.mjs[22m
+2026-08-30T11:03:46.945Z vite:resolve [32m3.85ms[39m [36mastro:content-module-imports[39m -> [2mC:\Users\92760\Desktop\githubdailyblog\.astro\content-modules.mjs[22m
+2026-08-30T11:03:46.945Z vite:resolve [33m14.61ms[39m [36mastro:content-module-imports[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/.astro/content-modules.mjs[22m
+2026-08-30T11:03:46.946Z vite:resolve [32m5.43ms[39m [36m../assets/runtime.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/assets/runtime.js[22m
+2026-08-30T11:03:46.946Z vite:resolve [32m5.45ms[39m [36m./config.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/content/config.js[22m
+2026-08-30T11:03:46.947Z vite:resolve [32m5.90ms[39m [36m../core/path.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/path.js[22m
+2026-08-30T11:03:46.947Z vite:resolve [32m6.50ms[39m [36m../core/build/incremental-content-collector.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/build/incremental-content-collector.js[22m
+2026-08-30T11:03:46.948Z vite:resolve [32m6.61ms[39m [36m../runtime/server/index.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/index.js[22m
+2026-08-30T11:03:46.948Z vite:resolve [32m6.67ms[39m [36m./loaders/errors.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/content/loaders/errors.js[22m
+2026-08-30T11:03:46.948Z vite:resolve [32m7.14ms[39m [36m../core/errors/index.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/errors/index.js[22m
+2026-08-30T11:03:46.948Z vite:resolve [32m7.47ms[39m [36m../assets/utils/resolveImports.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/assets/utils/resolveImports.js[22m
+2026-08-30T11:03:46.948Z vite:resolve [32m7.31ms[39m [36m./data-store.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/content/data-store.js[22m
+2026-08-30T11:03:46.949Z vite:resolve [32m7.73ms[39m [36mvirtual:astro:get-image[39m -> [2m virtual:astro:get-image[22m
+2026-08-30T11:03:46.950Z vite:import-analysis [33m46.81ms[39m [2m[12 imports rewritten] [2mnode_modules/astro/dist/content/runtime.js[22m[2m[22m
+2026-08-30T11:03:46.950Z vite:transform [31m76.62ms[39m [2m/node_modules/astro/dist/content/runtime.js[22m
+2026-08-30T11:03:47.069Z vite:load [32m1.47ms[39m [fs] [2m/node_modules/astro/dist/assets/runtime.js[22m
+2026-08-30T11:03:47.072Z vite:resolve [32m0.67ms[39m [36m../core/encryption.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/encryption.js[22m
+2026-08-30T11:03:47.072Z vite:import-analysis [32m1.45ms[39m [2m[2 imports rewritten] [2mnode_modules/astro/dist/assets/runtime.js[22m[2m[22m
+2026-08-30T11:03:47.072Z vite:transform [32m2.88ms[39m [2m/node_modules/astro/dist/assets/runtime.js[22m
+2026-08-30T11:03:47.086Z vite:load [32m1.89ms[39m [fs] [2m/node_modules/astro/dist/core/encryption.js[22m
+2026-08-30T11:03:47.094Z vite:resolve [32m1.43ms[39m [36m./csp/config.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/csp/config.js[22m
+2026-08-30T11:03:47.096Z vite:import-analysis [32m8.58ms[39m [2m[1 imports rewritten] [2mnode_modules/astro/dist/core/encryption.js[22m[2m[22m
+2026-08-30T11:03:47.096Z vite:transform [32m9.69ms[39m [2m/node_modules/astro/dist/core/encryption.js[22m
+2026-08-30T11:03:47.112Z vite:load [32m1.56ms[39m [fs] [2m/node_modules/astro/dist/core/csp/config.js[22m
+2026-08-30T11:03:47.116Z vite:import-analysis [32m0.85ms[39m [2m[0 imports rewritten] [2mnode_modules/astro/dist/core/csp/config.js[22m[2m[22m
+2026-08-30T11:03:47.117Z vite:transform [32m4.03ms[39m[2m [skipped] [2m/node_modules/astro/dist/core/csp/config.js[22m[2m[22m
+2026-08-30T11:03:47.131Z vite:load [32m5.35ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/index.js[22m
+2026-08-30T11:03:47.137Z vite:resolve [32m2.63ms[39m [36m./endpoint.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/endpoint.js[22m
+2026-08-30T11:03:47.137Z vite:resolve [32m2.94ms[39m [36m./escape.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/escape.js[22m
+2026-08-30T11:03:47.138Z vite:resolve [32m3.55ms[39m [36m./astro-global.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/astro-global.js[22m
+2026-08-30T11:03:47.138Z vite:resolve [32m3.90ms[39m [36m./astro-component.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/astro-component.js[22m
+2026-08-30T11:03:47.138Z vite:resolve [32m3.59ms[39m [36m./jsx.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/jsx.js[22m
+2026-08-30T11:03:47.138Z vite:resolve [32m3.83ms[39m [36m./transition.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/transition.js[22m
+2026-08-30T11:03:47.139Z vite:resolve [32m3.93ms[39m [36m./render/index.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/index.js[22m
+2026-08-30T11:03:47.139Z vite:resolve [32m4.40ms[39m [36m./render/template-depth.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/template-depth.js[22m
+2026-08-30T11:03:47.139Z vite:import-analysis [32m7.03ms[39m [2m[8 imports rewritten] [2mnode_modules/astro/dist/runtime/server/index.js[22m[2m[22m
+2026-08-30T11:03:47.140Z vite:transform [32m8.54ms[39m [2m/node_modules/astro/dist/runtime/server/index.js[22m
+2026-08-30T11:03:47.145Z vite:load [32m1.92ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/astro-component.js[22m
+2026-08-30T11:03:47.148Z vite:resolve [32m0.39ms[39m [36m../../core/errors/index.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/errors/index.js[22m
+2026-08-30T11:03:47.148Z vite:import-analysis [32m1.45ms[39m [2m[1 imports rewritten] [2mnode_modules/astro/dist/runtime/server/astro-component.js[22m[2m[22m
+2026-08-30T11:03:47.149Z vite:transform [32m3.10ms[39m [2m/node_modules/astro/dist/runtime/server/astro-component.js[22m
+2026-08-30T11:03:47.154Z vite:load [32m1.39ms[39m [fs] [2m/node_modules/astro/dist/core/errors/index.js[22m
+2026-08-30T11:03:47.157Z vite:resolve [32m0.95ms[39m [36m./utils.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/errors/utils.js[22m
+2026-08-30T11:03:47.157Z vite:resolve [32m1.11ms[39m [36m./errors-data.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/errors/errors-data.js[22m
+2026-08-30T11:03:47.157Z vite:resolve [32m1.43ms[39m [36m./errors.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/errors/errors.js[22m
+2026-08-30T11:03:47.157Z vite:resolve [32m1.30ms[39m [36m./zod-error-map.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/errors/zod-error-map.js[22m
+2026-08-30T11:03:47.158Z vite:import-analysis [32m2.19ms[39m [2m[4 imports rewritten] [2mnode_modules/astro/dist/core/errors/index.js[22m[2m[22m
+2026-08-30T11:03:47.158Z vite:transform [32m3.83ms[39m [2m/node_modules/astro/dist/core/errors/index.js[22m
+2026-08-30T11:03:47.163Z vite:load [32m1.72ms[39m [fs] [2m/node_modules/astro/dist/core/errors/errors.js[22m
+2026-08-30T11:03:47.166Z vite:resolve [32m1.30ms[39m [36m./printer.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/errors/printer.js[22m
+2026-08-30T11:03:47.167Z vite:import-analysis [32m2.94ms[39m [2m[1 imports rewritten] [2mnode_modules/astro/dist/core/errors/errors.js[22m[2m[22m
+2026-08-30T11:03:47.167Z vite:transform [32m4.08ms[39m [2m/node_modules/astro/dist/core/errors/errors.js[22m
+2026-08-30T11:03:47.175Z vite:load [32m1.38ms[39m [fs] [2m/node_modules/astro/dist/core/errors/printer.js[22m
+2026-08-30T11:03:47.177Z vite:import-analysis [32m0.87ms[39m [2m[1 imports rewritten] [2mnode_modules/astro/dist/core/errors/printer.js[22m[2m[22m
+2026-08-30T11:03:47.177Z vite:transform [32m1.66ms[39m [2m/node_modules/astro/dist/core/errors/printer.js[22m
+2026-08-30T11:03:47.183Z vite:load [32m1.99ms[39m [fs] [2m/node_modules/astro/dist/core/errors/utils.js[22m
+2026-08-30T11:03:47.185Z vite:import-analysis [32m0.46ms[39m [2m[no imports] [2mnode_modules/astro/dist/core/errors/utils.js[22m[2m[22m
+2026-08-30T11:03:47.186Z vite:transform [32m2.40ms[39m[2m [skipped] [2m/node_modules/astro/dist/core/errors/utils.js[22m[2m[22m
+2026-08-30T11:03:47.191Z vite:load [32m1.45ms[39m [fs] [2m/node_modules/astro/dist/core/errors/errors-data.js[22m
+2026-08-30T11:03:47.211Z vite:import-analysis [32m0.79ms[39m [2m[no imports] [2mnode_modules/astro/dist/core/errors/errors-data.js[22m[2m[22m
+2026-08-30T11:03:47.211Z vite:transform [33m19.07ms[39m[2m [skipped] [2m/node_modules/astro/dist/core/errors/errors-data.js[22m[2m[22m
+2026-08-30T11:03:47.255Z vite:load [32m1.41ms[39m [fs] [2m/node_modules/astro/dist/core/errors/zod-error-map.js[22m
+2026-08-30T11:03:47.256Z vite:import-analysis [32m0.12ms[39m [2m[no imports] [2mnode_modules/astro/dist/core/errors/zod-error-map.js[22m[2m[22m
+2026-08-30T11:03:47.256Z vite:transform [32m0.93ms[39m[2m [skipped] [2m/node_modules/astro/dist/core/errors/zod-error-map.js[22m[2m[22m
+2026-08-30T11:03:47.273Z vite:load [32m5.58ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/astro-global.js[22m
+2026-08-30T11:03:47.277Z vite:resolve [32m0.68ms[39m [36m../../core/constants.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/constants.js[22m
+2026-08-30T11:03:47.277Z vite:import-analysis [32m1.49ms[39m [2m[2 imports rewritten] [2mnode_modules/astro/dist/runtime/server/astro-global.js[22m[2m[22m
+2026-08-30T11:03:47.278Z vite:transform [32m4.84ms[39m [2m/node_modules/astro/dist/runtime/server/astro-global.js[22m
+2026-08-30T11:03:47.289Z vite:load [32m1.45ms[39m [fs] [2m/node_modules/astro/dist/core/constants.js[22m
+2026-08-30T11:03:47.290Z vite:import-analysis [32m0.07ms[39m [2m[no imports] [2mnode_modules/astro/dist/core/constants.js[22m[2m[22m
+2026-08-30T11:03:47.290Z vite:transform [32m0.87ms[39m[2m [skipped] [2m/node_modules/astro/dist/core/constants.js[22m[2m[22m
+2026-08-30T11:03:47.294Z vite:load [32m1.42ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/endpoint.js[22m
+2026-08-30T11:03:47.305Z vite:resolve [32m0.55ms[39m [36m../../core/errors/errors.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/errors/errors.js[22m
+2026-08-30T11:03:47.305Z vite:resolve [32m0.68ms[39m [36m../../core/errors/errors-data.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/errors/errors-data.js[22m
+2026-08-30T11:03:47.305Z vite:import-analysis [33m10.11ms[39m [2m[3 imports rewritten] [2mnode_modules/astro/dist/runtime/server/endpoint.js[22m[2m[22m
+2026-08-30T11:03:47.305Z vite:transform [33m10.93ms[39m [2m/node_modules/astro/dist/runtime/server/endpoint.js[22m
+2026-08-30T11:03:47.315Z vite:load [32m1.92ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/escape.js[22m
+2026-08-30T11:03:47.318Z vite:resolve [32m0.67ms[39m [36m./util.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/util.js[22m
+2026-08-30T11:03:47.319Z vite:import-analysis [32m1.67ms[39m [2m[1 imports rewritten] [2mnode_modules/astro/dist/runtime/server/escape.js[22m[2m[22m
+2026-08-30T11:03:47.319Z vite:transform [32m3.47ms[39m [2m/node_modules/astro/dist/runtime/server/escape.js[22m
+2026-08-30T11:03:47.325Z vite:load [32m1.21ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/util.js[22m
+2026-08-30T11:03:47.326Z vite:import-analysis [32m0.15ms[39m [2m[no imports] [2mnode_modules/astro/dist/runtime/server/util.js[22m[2m[22m
+2026-08-30T11:03:47.326Z vite:transform [32m0.93ms[39m[2m [skipped] [2m/node_modules/astro/dist/runtime/server/util.js[22m[2m[22m
+2026-08-30T11:03:47.330Z vite:load [32m1.76ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/jsx.js[22m
+2026-08-30T11:03:47.335Z vite:resolve [32m1.26ms[39m [36m./index.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/index.js[22m
+2026-08-30T11:03:47.335Z vite:resolve [32m1.44ms[39m [36m./render/component.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/component.js[22m
+2026-08-30T11:03:47.336Z vite:resolve [32m3.09ms[39m [36m../../jsx-runtime/index.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/jsx-runtime/index.js[22m
+2026-08-30T11:03:47.337Z vite:resolve [32m3.08ms[39m [36m./render/astro/factory.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/astro/factory.js[22m
+2026-08-30T11:03:47.337Z vite:resolve [32m3.02ms[39m [36m./render/slot.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/slot.js[22m
+2026-08-30T11:03:47.337Z vite:import-analysis [32m4.95ms[39m [2m[5 imports rewritten] [2mnode_modules/astro/dist/runtime/server/jsx.js[22m[2m[22m
+2026-08-30T11:03:47.337Z vite:transform [32m6.58ms[39m [2m/node_modules/astro/dist/runtime/server/jsx.js[22m
+2026-08-30T11:03:47.347Z vite:load [32m1.67ms[39m [fs] [2m/node_modules/astro/dist/jsx-runtime/index.js[22m
+2026-08-30T11:03:47.350Z vite:import-analysis [32m2.08ms[39m [2m[1 imports rewritten] [2mnode_modules/astro/dist/jsx-runtime/index.js[22m[2m[22m
+2026-08-30T11:03:47.350Z vite:transform [32m3.07ms[39m [2m/node_modules/astro/dist/jsx-runtime/index.js[22m
+2026-08-30T11:03:47.356Z vite:load [32m1.38ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/astro/factory.js[22m
+2026-08-30T11:03:47.358Z vite:resolve [32m0.73ms[39m [36m../../../../core/head-propagation/resolver.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/head-propagation/resolver.js[22m
+2026-08-30T11:03:47.358Z vite:import-analysis [32m1.32ms[39m [2m[1 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/astro/factory.js[22m[2m[22m
+2026-08-30T11:03:47.358Z vite:transform [32m1.91ms[39m [2m/node_modules/astro/dist/runtime/server/render/astro/factory.js[22m
+2026-08-30T11:03:47.362Z vite:load [32m1.60ms[39m [fs] [2m/node_modules/astro/dist/core/head-propagation/resolver.js[22m
+2026-08-30T11:03:47.364Z vite:import-analysis [32m0.09ms[39m [2m[no imports] [2mnode_modules/astro/dist/core/head-propagation/resolver.js[22m[2m[22m
+2026-08-30T11:03:47.364Z vite:transform [32m2.20ms[39m[2m [skipped] [2m/node_modules/astro/dist/core/head-propagation/resolver.js[22m[2m[22m
+2026-08-30T11:03:47.370Z vite:load [32m1.48ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/component.js[22m
+2026-08-30T11:03:47.382Z vite:resolve [32m3.59ms[39m [36m../../../core/errors/index.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/errors/index.js[22m
+2026-08-30T11:03:47.383Z vite:resolve [32m4.15ms[39m [36m../escape.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/escape.js[22m
+2026-08-30T11:03:47.383Z vite:resolve [32m4.19ms[39m [36m../serialize.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/serialize.js[22m
+2026-08-30T11:03:47.383Z vite:resolve [32m4.50ms[39m [36m../hydration.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/hydration.js[22m
+2026-08-30T11:03:47.384Z vite:resolve [32m4.81ms[39m [36m../util.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/util.js[22m
+2026-08-30T11:03:47.384Z vite:resolve [32m5.31ms[39m [36m../shorthash.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/shorthash.js[22m
+2026-08-30T11:03:47.384Z vite:resolve [32m5.14ms[39m [36m./astro/factory.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/astro/factory.js[22m
+2026-08-30T11:03:47.385Z vite:resolve [32m4.96ms[39m [36m./common.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/common.js[22m
+2026-08-30T11:03:47.385Z vite:resolve [32m5.19ms[39m [36m./astro/render.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/astro/render.js[22m
+2026-08-30T11:03:47.385Z vite:resolve [32m5.23ms[39m [36m./dom.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/dom.js[22m
+2026-08-30T11:03:47.385Z vite:resolve [32m5.26ms[39m [36m./instruction.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/instruction.js[22m
+2026-08-30T11:03:47.385Z vite:resolve [32m5.69ms[39m [36m./astro/instance.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/astro/instance.js[22m
+2026-08-30T11:03:47.385Z vite:resolve [32m5.57ms[39m [36m./head.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/head.js[22m
+2026-08-30T11:03:47.386Z vite:resolve [32m6.05ms[39m [36m./astro/index.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/astro/index.js[22m
+2026-08-30T11:03:47.386Z vite:resolve [32m5.71ms[39m [36m./server-islands.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/server-islands.js[22m
+2026-08-30T11:03:47.386Z vite:resolve [32m5.77ms[39m [36m./any.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/any.js[22m
+2026-08-30T11:03:47.386Z vite:resolve [32m5.97ms[39m [36m./slot.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/slot.js[22m
+2026-08-30T11:03:47.386Z vite:resolve [32m6.05ms[39m [36m./util.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/util.js[22m
+2026-08-30T11:03:47.386Z vite:import-analysis [33m15.56ms[39m [2m[18 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/component.js[22m[2m[22m
+2026-08-30T11:03:47.386Z vite:transform [33m16.70ms[39m [2m/node_modules/astro/dist/runtime/server/render/component.js[22m
+2026-08-30T11:03:47.414Z vite:load [32m2.04ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/hydration.js[22m
+2026-08-30T11:03:47.420Z vite:resolve [32m1.86ms[39m [36m./serialize.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/serialize.js[22m
+2026-08-30T11:03:47.420Z vite:import-analysis [32m3.29ms[39m [2m[3 imports rewritten] [2mnode_modules/astro/dist/runtime/server/hydration.js[22m[2m[22m
+2026-08-30T11:03:47.420Z vite:transform [32m5.95ms[39m [2m/node_modules/astro/dist/runtime/server/hydration.js[22m
+2026-08-30T11:03:47.428Z vite:load [32m1.61ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/serialize.js[22m
+2026-08-30T11:03:47.429Z vite:import-analysis [32m0.07ms[39m [2m[no imports] [2mnode_modules/astro/dist/runtime/server/serialize.js[22m[2m[22m
+2026-08-30T11:03:47.429Z vite:transform [32m0.83ms[39m[2m [skipped] [2m/node_modules/astro/dist/runtime/server/serialize.js[22m[2m[22m
+2026-08-30T11:03:47.436Z vite:load [32m2.21ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/shorthash.js[22m
+2026-08-30T11:03:47.439Z vite:import-analysis [32m0.10ms[39m [2m[no imports] [2mnode_modules/astro/dist/runtime/server/shorthash.js[22m[2m[22m
+2026-08-30T11:03:47.439Z vite:transform [32m2.45ms[39m[2m [skipped] [2m/node_modules/astro/dist/runtime/server/shorthash.js[22m[2m[22m
+2026-08-30T11:03:47.445Z vite:load [32m1.57ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/astro/index.js[22m
+2026-08-30T11:03:47.447Z vite:resolve [32m0.90ms[39m [36m./factory.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/astro/factory.js[22m
+2026-08-30T11:03:47.447Z vite:resolve [32m1.06ms[39m [36m./instance.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/astro/instance.js[22m
+2026-08-30T11:03:47.447Z vite:resolve [32m1.22ms[39m [36m./head-and-content.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/astro/head-and-content.js[22m
+2026-08-30T11:03:47.447Z vite:resolve [32m1.25ms[39m [36m./render.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/astro/render.js[22m
+2026-08-30T11:03:47.447Z vite:resolve [32m1.34ms[39m [36m./render-template.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/astro/render-template.js[22m
+2026-08-30T11:03:47.447Z vite:import-analysis [32m2.14ms[39m [2m[5 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/astro/index.js[22m[2m[22m
+2026-08-30T11:03:47.448Z vite:transform [32m2.80ms[39m [2m/node_modules/astro/dist/runtime/server/render/astro/index.js[22m
+2026-08-30T11:03:47.455Z vite:load [32m2.12ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/astro/head-and-content.js[22m
+2026-08-30T11:03:47.456Z vite:import-analysis [32m0.09ms[39m [2m[no imports] [2mnode_modules/astro/dist/runtime/server/render/astro/head-and-content.js[22m[2m[22m
+2026-08-30T11:03:47.457Z vite:transform [32m1.13ms[39m[2m [skipped] [2m/node_modules/astro/dist/runtime/server/render/astro/head-and-content.js[22m[2m[22m
+2026-08-30T11:03:47.463Z vite:load [32m2.01ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/astro/instance.js[22m
+2026-08-30T11:03:47.465Z vite:resolve [32m0.44ms[39m [36m../../util.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/util.js[22m
+2026-08-30T11:03:47.465Z vite:resolve [32m0.60ms[39m [36m../any.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/any.js[22m
+2026-08-30T11:03:47.465Z vite:resolve [32m0.74ms[39m [36m../head-propagation/runtime.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/head-propagation/runtime.js[22m
+2026-08-30T11:03:47.465Z vite:import-analysis [32m1.45ms[39m [2m[4 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/astro/instance.js[22m[2m[22m
+2026-08-30T11:03:47.465Z vite:transform [32m2.14ms[39m [2m/node_modules/astro/dist/runtime/server/render/astro/instance.js[22m
+2026-08-30T11:03:47.470Z vite:load [32m1.25ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/any.js[22m
+2026-08-30T11:03:47.474Z vite:import-analysis [32m2.96ms[39m [2m[6 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/any.js[22m[2m[22m
+2026-08-30T11:03:47.474Z vite:transform [32m3.99ms[39m [2m/node_modules/astro/dist/runtime/server/render/any.js[22m
+2026-08-30T11:03:47.482Z vite:load [32m1.52ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/common.js[22m
+2026-08-30T11:03:47.485Z vite:resolve [32m1.05ms[39m [36m./head-propagation/runtime.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/head-propagation/runtime.js[22m
+2026-08-30T11:03:47.485Z vite:resolve [32m1.52ms[39m [36m../scripts.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/scripts.js[22m
+2026-08-30T11:03:47.485Z vite:import-analysis [32m2.68ms[39m [2m[7 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/common.js[22m[2m[22m
+2026-08-30T11:03:47.486Z vite:transform [32m3.47ms[39m [2m/node_modules/astro/dist/runtime/server/render/common.js[22m
+2026-08-30T11:03:47.494Z vite:load [32m1.60ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/scripts.js[22m
+2026-08-30T11:03:47.497Z vite:resolve [32m0.73ms[39m [36m./astro-island.prebuilt-dev.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/astro-island.prebuilt-dev.js[22m
+2026-08-30T11:03:47.498Z vite:resolve [32m1.49ms[39m [36m./astro-island.prebuilt.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/astro-island.prebuilt.js[22m
+2026-08-30T11:03:47.498Z vite:resolve [32m1.40ms[39m [36m./astro-island-styles.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/astro-island-styles.js[22m
+2026-08-30T11:03:47.498Z vite:import-analysis [32m3.31ms[39m [2m[3 imports rewritten] [2mnode_modules/astro/dist/runtime/server/scripts.js[22m[2m[22m
+2026-08-30T11:03:47.498Z vite:transform [32m4.07ms[39m [2m/node_modules/astro/dist/runtime/server/scripts.js[22m
+2026-08-30T11:03:47.501Z vite:load [32m1.11ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/astro-island.prebuilt.js[22m
+2026-08-30T11:03:47.502Z vite:import-analysis [32m0.06ms[39m [2m[no imports] [2mnode_modules/astro/dist/runtime/server/astro-island.prebuilt.js[22m[2m[22m
+2026-08-30T11:03:47.502Z vite:transform [32m0.70ms[39m[2m [skipped] [2m/node_modules/astro/dist/runtime/server/astro-island.prebuilt.js[22m[2m[22m
+2026-08-30T11:03:47.505Z vite:load [32m1.47ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/astro-island.prebuilt-dev.js[22m
+2026-08-30T11:03:47.507Z vite:import-analysis [32m0.12ms[39m [2m[no imports] [2mnode_modules/astro/dist/runtime/server/astro-island.prebuilt-dev.js[22m[2m[22m
+2026-08-30T11:03:47.507Z vite:transform [32m1.18ms[39m[2m [skipped] [2m/node_modules/astro/dist/runtime/server/astro-island.prebuilt-dev.js[22m[2m[22m
+2026-08-30T11:03:47.514Z vite:load [32m3.04ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/astro-island-styles.js[22m
+2026-08-30T11:03:47.515Z vite:import-analysis [32m0.07ms[39m [2m[no imports] [2mnode_modules/astro/dist/runtime/server/astro-island-styles.js[22m[2m[22m
+2026-08-30T11:03:47.515Z vite:transform [32m0.83ms[39m[2m [skipped] [2m/node_modules/astro/dist/runtime/server/astro-island-styles.js[22m[2m[22m
+2026-08-30T11:03:47.517Z vite:load [32m1.14ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/head-propagation/runtime.js[22m
+2026-08-30T11:03:47.519Z vite:resolve [32m0.61ms[39m [36m../../../../core/head-propagation/buffer.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/head-propagation/buffer.js[22m
+2026-08-30T11:03:47.519Z vite:resolve [32m0.68ms[39m [36m../../../../core/head-propagation/policy.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/head-propagation/policy.js[22m
+2026-08-30T11:03:47.520Z vite:resolve [32m0.91ms[39m [36m../astro/head-and-content.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/astro/head-and-content.js[22m
+2026-08-30T11:03:47.520Z vite:import-analysis [32m1.89ms[39m [2m[4 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/head-propagation/runtime.js[22m[2m[22m
+2026-08-30T11:03:47.520Z vite:transform [32m2.46ms[39m [2m/node_modules/astro/dist/runtime/server/render/head-propagation/runtime.js[22m
+2026-08-30T11:03:47.526Z vite:load [32m1.85ms[39m [fs] [2m/node_modules/astro/dist/core/head-propagation/buffer.js[22m
+2026-08-30T11:03:47.529Z vite:import-analysis [32m0.09ms[39m [2m[no imports] [2mnode_modules/astro/dist/core/head-propagation/buffer.js[22m[2m[22m
+2026-08-30T11:03:47.529Z vite:transform [32m1.49ms[39m[2m [skipped] [2m/node_modules/astro/dist/core/head-propagation/buffer.js[22m[2m[22m
+2026-08-30T11:03:47.532Z vite:load [32m1.23ms[39m [fs] [2m/node_modules/astro/dist/core/head-propagation/policy.js[22m
+2026-08-30T11:03:47.533Z vite:import-analysis [32m0.05ms[39m [2m[no imports] [2mnode_modules/astro/dist/core/head-propagation/policy.js[22m[2m[22m
+2026-08-30T11:03:47.533Z vite:transform [32m0.77ms[39m[2m [skipped] [2m/node_modules/astro/dist/core/head-propagation/policy.js[22m[2m[22m
+2026-08-30T11:03:47.535Z vite:load [32m0.99ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/head.js[22m
+2026-08-30T11:03:47.538Z vite:resolve [32m0.77ms[39m [36m./csp.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/csp.js[22m
+2026-08-30T11:03:47.538Z vite:import-analysis [32m1.85ms[39m [2m[4 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/head.js[22m[2m[22m
+2026-08-30T11:03:47.538Z vite:transform [32m2.85ms[39m [2m/node_modules/astro/dist/runtime/server/render/head.js[22m
+2026-08-30T11:03:47.546Z vite:load [32m1.40ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/csp.js[22m
+2026-08-30T11:03:47.549Z vite:resolve [32m0.73ms[39m [36m../../../core/csp/runtime.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/csp/runtime.js[22m
+2026-08-30T11:03:47.549Z vite:import-analysis [32m1.46ms[39m [2m[1 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/csp.js[22m[2m[22m
+2026-08-30T11:03:47.549Z vite:transform [32m2.21ms[39m [2m/node_modules/astro/dist/runtime/server/render/csp.js[22m
+2026-08-30T11:03:47.558Z vite:load [32m2.67ms[39m [fs] [2m/node_modules/astro/dist/core/csp/runtime.js[22m
+2026-08-30T11:03:47.559Z vite:import-analysis [32m0.08ms[39m [2m[no imports] [2mnode_modules/astro/dist/core/csp/runtime.js[22m[2m[22m
+2026-08-30T11:03:47.559Z vite:transform [32m0.91ms[39m[2m [skipped] [2m/node_modules/astro/dist/core/csp/runtime.js[22m[2m[22m
+2026-08-30T11:03:47.565Z vite:load [32m1.46ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/instruction.js[22m
+2026-08-30T11:03:47.567Z vite:import-analysis [32m0.14ms[39m [2m[no imports] [2mnode_modules/astro/dist/runtime/server/render/instruction.js[22m[2m[22m
+2026-08-30T11:03:47.567Z vite:transform [32m1.24ms[39m[2m [skipped] [2m/node_modules/astro/dist/runtime/server/render/instruction.js[22m[2m[22m
+2026-08-30T11:03:47.574Z vite:load [32m2.61ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/util.js[22m
+2026-08-30T11:03:47.577Z vite:import-analysis [32m1.35ms[39m [2m[2 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/util.js[22m[2m[22m
+2026-08-30T11:03:47.577Z vite:transform [32m2.62ms[39m [2m/node_modules/astro/dist/runtime/server/render/util.js[22m
+2026-08-30T11:03:47.589Z vite:load [32m2.06ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/server-islands.js[22m
+2026-08-30T11:03:47.593Z vite:resolve [32m1.52ms[39m [36m../../../core/encryption.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/encryption.js[22m
+2026-08-30T11:03:47.594Z vite:resolve [32m1.68ms[39m [36m./astro/head-and-content.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/astro/head-and-content.js[22m
+2026-08-30T11:03:47.594Z vite:resolve [32m1.92ms[39m [36m./server-islands-shared.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/server-islands-shared.js[22m
+2026-08-30T11:03:47.594Z vite:import-analysis [32m4.59ms[39m [2m[8 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/server-islands.js[22m[2m[22m
+2026-08-30T11:03:47.594Z vite:transform [32m5.52ms[39m [2m/node_modules/astro/dist/runtime/server/render/server-islands.js[22m
+2026-08-30T11:03:47.605Z vite:load [32m1.94ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/server-islands-shared.js[22m
+2026-08-30T11:03:47.605Z vite:import-analysis [32m0.06ms[39m [2m[no imports] [2mnode_modules/astro/dist/runtime/server/render/server-islands-shared.js[22m[2m[22m
+2026-08-30T11:03:47.606Z vite:transform [32m0.84ms[39m[2m [skipped] [2m/node_modules/astro/dist/runtime/server/render/server-islands-shared.js[22m[2m[22m
+2026-08-30T11:03:47.610Z vite:load [32m1.71ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/slot.js[22m
+2026-08-30T11:03:47.613Z vite:resolve [32m0.88ms[39m [36m./astro/render-template.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/astro/render-template.js[22m
+2026-08-30T11:03:47.613Z vite:import-analysis [32m1.87ms[39m [2m[5 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/slot.js[22m[2m[22m
+2026-08-30T11:03:47.613Z vite:transform [32m2.66ms[39m [2m/node_modules/astro/dist/runtime/server/render/slot.js[22m
+2026-08-30T11:03:47.626Z vite:load [32m7.70ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/astro/render-template.js[22m
+2026-08-30T11:03:47.628Z vite:resolve [32m0.55ms[39m [36m../../escape.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/escape.js[22m
+2026-08-30T11:03:47.628Z vite:resolve [32m0.97ms[39m [36m../util.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/util.js[22m
+2026-08-30T11:03:47.629Z vite:import-analysis [32m1.99ms[39m [2m[4 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/astro/render-template.js[22m[2m[22m
+2026-08-30T11:03:47.629Z vite:transform [32m2.85ms[39m [2m/node_modules/astro/dist/runtime/server/render/astro/render-template.js[22m
+2026-08-30T11:03:47.637Z vite:load [32m1.80ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/astro/render.js[22m
+2026-08-30T11:03:47.643Z vite:resolve [32m2.38ms[39m [36m../../../../core/errors/index.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/errors/index.js[22m
+2026-08-30T11:03:47.643Z vite:resolve [32m1.55ms[39m [36m../common.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/common.js[22m
+2026-08-30T11:03:47.644Z vite:resolve [32m1.53ms[39m [36m../streaming.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/streaming.js[22m
+2026-08-30T11:03:47.644Z vite:import-analysis [32m4.93ms[39m [2m[8 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/astro/render.js[22m[2m[22m
+2026-08-30T11:03:47.644Z vite:transform [32m6.50ms[39m [2m/node_modules/astro/dist/runtime/server/render/astro/render.js[22m
+2026-08-30T11:03:47.657Z vite:load [32m3.21ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/streaming.js[22m
+2026-08-30T11:03:47.660Z vite:resolve [32m1.57ms[39m [36m../../../jsx-runtime/index.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/jsx-runtime/index.js[22m
+2026-08-30T11:03:47.661Z vite:resolve [32m2.01ms[39m [36m../index.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/index.js[22m
+2026-08-30T11:03:47.661Z vite:resolve [32m2.09ms[39m [36m../jsx.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/jsx.js[22m
+2026-08-30T11:03:47.662Z vite:import-analysis [32m3.91ms[39m [2m[12 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/streaming.js[22m[2m[22m
+2026-08-30T11:03:47.662Z vite:transform [32m4.68ms[39m [2m/node_modules/astro/dist/runtime/server/render/streaming.js[22m
+2026-08-30T11:03:47.676Z vite:load [32m2.31ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/dom.js[22m
+2026-08-30T11:03:47.678Z vite:import-analysis [32m1.24ms[39m [2m[3 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/dom.js[22m[2m[22m
+2026-08-30T11:03:47.678Z vite:transform [32m2.03ms[39m [2m/node_modules/astro/dist/runtime/server/render/dom.js[22m
+2026-08-30T11:03:47.682Z vite:load [32m1.13ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/index.js[22m
+2026-08-30T11:03:47.686Z vite:resolve [32m2.03ms[39m [36m./component.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/component.js[22m
+2026-08-30T11:03:47.686Z vite:resolve [32m2.56ms[39m [36m./page.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/page.js[22m
+2026-08-30T11:03:47.686Z vite:resolve [32m2.67ms[39m [36m./streaming.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/streaming.js[22m
+2026-08-30T11:03:47.687Z vite:resolve [32m2.97ms[39m [36m./script.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/script.js[22m
+2026-08-30T11:03:47.687Z vite:resolve [32m3.15ms[39m [36m./tags.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/runtime/server/render/tags.js[22m
+2026-08-30T11:03:47.688Z vite:import-analysis [32m5.37ms[39m [2m[11 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/index.js[22m[2m[22m
+2026-08-30T11:03:47.688Z vite:transform [32m6.19ms[39m [2m/node_modules/astro/dist/runtime/server/render/index.js[22m
+2026-08-30T11:03:47.694Z vite:load [32m2.70ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/page.js[22m
+2026-08-30T11:03:47.697Z vite:resolve [32m1.12ms[39m [36m../../../core/head-propagation/resolver.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/head-propagation/resolver.js[22m
+2026-08-30T11:03:47.697Z vite:resolve [32m1.67ms[39m [36m../../../core/routing/internal/route-errors.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/core/routing/internal/route-errors.js[22m
+2026-08-30T11:03:47.697Z vite:import-analysis [32m2.60ms[39m [2m[8 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/page.js[22m[2m[22m
+2026-08-30T11:03:47.697Z vite:transform [32m3.35ms[39m [2m/node_modules/astro/dist/runtime/server/render/page.js[22m
+2026-08-30T11:03:47.702Z vite:load [32m1.98ms[39m [fs] [2m/node_modules/astro/dist/core/routing/internal/route-errors.js[22m
+2026-08-30T11:03:47.703Z vite:import-analysis [32m0.08ms[39m [2m[no imports] [2mnode_modules/astro/dist/core/routing/internal/route-errors.js[22m[2m[22m
+2026-08-30T11:03:47.704Z vite:transform [32m1.09ms[39m[2m [skipped] [2m/node_modules/astro/dist/core/routing/internal/route-errors.js[22m[2m[22m
+2026-08-30T11:03:47.708Z vite:load [32m2.30ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/script.js[22m
+2026-08-30T11:03:47.710Z vite:import-analysis [32m0.93ms[39m [2m[1 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/script.js[22m[2m[22m
+2026-08-30T11:03:47.710Z vite:transform [32m1.70ms[39m [2m/node_modules/astro/dist/runtime/server/render/script.js[22m
+2026-08-30T11:03:47.713Z vite:load [32m1.19ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/tags.js[22m
+2026-08-30T11:03:47.715Z vite:import-analysis [32m0.68ms[39m [2m[1 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/tags.js[22m[2m[22m
+2026-08-30T11:03:47.715Z vite:transform [32m1.41ms[39m [2m/node_modules/astro/dist/runtime/server/render/tags.js[22m
+2026-08-30T11:03:47.720Z vite:load [32m1.74ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/render/template-depth.js[22m
+2026-08-30T11:03:47.722Z vite:import-analysis [32m0.82ms[39m [2m[1 imports rewritten] [2mnode_modules/astro/dist/runtime/server/render/template-depth.js[22m[2m[22m
+2026-08-30T11:03:47.722Z vite:transform [32m2.40ms[39m [2m/node_modules/astro/dist/runtime/server/render/template-depth.js[22m
+2026-08-30T11:03:47.725Z vite:load [32m1.18ms[39m [fs] [2m/node_modules/astro/dist/runtime/server/transition.js[22m
+2026-08-30T11:03:47.727Z vite:resolve [32m0.75ms[39m [36m../../transitions/cssesc.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/transitions/cssesc.js[22m
+2026-08-30T11:03:47.728Z vite:resolve [32m0.87ms[39m [36m../../transitions/index.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/transitions/index.js[22m
+2026-08-30T11:03:47.728Z vite:import-analysis [32m1.69ms[39m [2m[3 imports rewritten] [2mnode_modules/astro/dist/runtime/server/transition.js[22m[2m[22m
+2026-08-30T11:03:47.728Z vite:transform [32m2.51ms[39m [2m/node_modules/astro/dist/runtime/server/transition.js[22m
+2026-08-30T11:03:47.734Z vite:load [32m1.18ms[39m [fs] [2m/node_modules/astro/dist/transitions/cssesc.js[22m
+2026-08-30T11:03:47.735Z vite:import-analysis [32m0.17ms[39m [2m[no imports] [2mnode_modules/astro/dist/transitions/cssesc.js[22m[2m[22m
+2026-08-30T11:03:47.735Z vite:transform [32m1.34ms[39m[2m [skipped] [2m/node_modules/astro/dist/transitions/cssesc.js[22m[2m[22m
+2026-08-30T11:03:47.743Z vite:load [32m2.38ms[39m [fs] [2m/node_modules/astro/dist/transitions/index.js[22m
+2026-08-30T11:03:47.744Z vite:import-analysis [32m0.06ms[39m [2m[no imports] [2mnode_modules/astro/dist/transitions/index.js[22m[2m[22m
+2026-08-30T11:03:47.744Z vite:transform [32m0.87ms[39m[2m [skipped] [2m/node_modules/astro/dist/transitions/index.js[22m[2m[22m
+2026-08-30T11:03:47.748Z vite:load [32m1.34ms[39m [fs] [2m/node_modules/astro/dist/assets/utils/resolveImports.js[22m
+2026-08-30T11:03:47.756Z vite:resolve [32m0.88ms[39m [36m../consts.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/assets/consts.js[22m
+2026-08-30T11:03:47.757Z vite:resolve [32m1.44ms[39m [36m../../content/consts.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/content/consts.js[22m
+2026-08-30T11:03:47.757Z vite:import-analysis [32m8.54ms[39m [2m[2 imports rewritten] [2mnode_modules/astro/dist/assets/utils/resolveImports.js[22m[2m[22m
+2026-08-30T11:03:47.757Z vite:transform [32m9.24ms[39m [2m/node_modules/astro/dist/assets/utils/resolveImports.js[22m
+2026-08-30T11:03:47.767Z vite:load [32m1.92ms[39m [fs] [2m/node_modules/astro/dist/content/consts.js[22m
+2026-08-30T11:03:47.768Z vite:import-analysis [32m0.18ms[39m [2m[no imports] [2mnode_modules/astro/dist/content/consts.js[22m[2m[22m
+2026-08-30T11:03:47.768Z vite:transform [32m1.29ms[39m[2m [skipped] [2m/node_modules/astro/dist/content/consts.js[22m[2m[22m
+2026-08-30T11:03:47.773Z vite:load [32m1.31ms[39m [fs] [2m/node_modules/astro/dist/assets/consts.js[22m
+2026-08-30T11:03:47.774Z vite:import-analysis [32m0.08ms[39m [2m[no imports] [2mnode_modules/astro/dist/assets/consts.js[22m[2m[22m
+2026-08-30T11:03:47.774Z vite:transform [32m0.74ms[39m[2m [skipped] [2m/node_modules/astro/dist/assets/consts.js[22m[2m[22m
+2026-08-30T11:03:47.779Z vite:load [32m2.25ms[39m [fs] [2m/node_modules/astro/dist/core/build/incremental-content-collector.js[22m
+2026-08-30T11:03:47.782Z vite:import-analysis [32m0.13ms[39m [2m[no imports] [2mnode_modules/astro/dist/core/build/incremental-content-collector.js[22m[2m[22m
+2026-08-30T11:03:47.782Z vite:transform [32m1.23ms[39m[2m [skipped] [2m/node_modules/astro/dist/core/build/incremental-content-collector.js[22m[2m[22m
+2026-08-30T11:03:47.787Z vite:load [32m1.96ms[39m [fs] [2m/node_modules/astro/dist/core/path.js[22m
+2026-08-30T11:03:47.789Z vite:import-analysis [32m0.48ms[39m [2m[0 imports rewritten] [2mnode_modules/astro/dist/core/path.js[22m[2m[22m
+2026-08-30T11:03:47.789Z vite:transform [32m1.73ms[39m[2m [skipped] [2m/node_modules/astro/dist/core/path.js[22m[2m[22m
+2026-08-30T11:03:47.797Z vite:load [32m2.75ms[39m [fs] [2m/node_modules/astro/dist/content/config.js[22m
+2026-08-30T11:03:47.799Z vite:resolve [32m0.54ms[39m [36m./consts.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/content/consts.js[22m
+2026-08-30T11:03:47.799Z vite:import-analysis [32m1.23ms[39m [2m[2 imports rewritten] [2mnode_modules/astro/dist/content/config.js[22m[2m[22m
+2026-08-30T11:03:47.799Z vite:transform [32m2.12ms[39m [2m/node_modules/astro/dist/content/config.js[22m
+2026-08-30T11:03:47.814Z vite:load [32m8.34ms[39m [fs] [2m/node_modules/astro/dist/content/data-store.js[22m
+2026-08-30T11:03:47.822Z vite:resolve [32m0.26ms[39m [36mastro:data-layer-content[39m -> [2m astro:data-layer-content[22m
+2026-08-30T11:03:47.823Z vite:resolve [32m1.36ms[39m [36m./data-store-source.js[39m -> [2mC:/Users/92760/Desktop/githubdailyblog/node_modules/astro/dist/content/data-store-source.js[22m
+2026-08-30T11:03:47.824Z vite:import-analysis [32m9.11ms[39m [2m[2 imports rewritten] [2mnode_modules/astro/dist/content/data-store.js[22m[2m[22m
+2026-08-30T11:03:47.824Z vite:transform [32m9.92ms[39m [2m/node_modules/astro/dist/content/data-store.js[22m
+2026-08-30T11:03:47.835Z vite:load [32m1.07ms[39m [fs] [2m/node_modules/astro/dist/content/data-store-source.js[22m
+2026-08-30T11:03:47.836Z vite:import-analysis [32m0.06ms[39m [2m[no imports] [2mnode_modules/astro/dist/content/data-store-source.js[22m[2m[22m
+2026-08-30T11:03:47.836Z vite:transform [32m0.72ms[39m[2m [skipped] [2m/node_modules/astro/dist/content/data-store-source.js[22m[2m[22m
+2026-08-30T11:03:47.840Z vite:load [32m1.34ms[39m [fs] [2m/node_modules/astro/dist/content/loaders/errors.js[22m
+2026-08-30T11:03:47.841Z vite:import-analysis [32m0.14ms[39m [2m[no imports] [2mnode_modules/astro/dist/content/loaders/errors.js[22m[2m[22m
+2026-08-30T11:03:47.841Z vite:transform [32m1.40ms[39m[2m [skipped] [2m/node_modules/astro/dist/content/loaders/errors.js[22m[2m[22m
+2026-08-30T11:03:47.848Z vite:load [32m1.13ms[39m [fs] [2m/node_modules/astro/dist/zod.js[22m
+2026-08-30T11:03:47.849Z vite:import-analysis [32m0.12ms[39m [2m[0 imports rewritten] [2mnode_modules/astro/dist/zod.js[22m[2m[22m
+2026-08-30T11:03:47.849Z vite:transform [32m0.75ms[39m[2m [skipped] [2m/node_modules/astro/dist/zod.js[22m[2m[22m
+[2m19:03:47[22m [34m[content][39m Syncing content
+[2m19:03:47[22m [34m[content][39m Synced content
+[2m19:03:47[22m [34m[types][39m Generated [2m1.46s[22m
+[2m19:03:47[22m [34m[check][39m Getting diagnostics for Astro files in C:\Users\92760\Desktop\githubdailyblog...
+[96mastro.config.mjs[0m:[93m1[0m:[93m42[0m - [91merror[0m[90m ts(2591): [0mCannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.
+
+[7m1[0m export default { output: "static", base: process.env.BASE_PATH || "" };
+[7m [0m [91m                                         ~~~~~~~[0m
+
+[96msrc/content.config.ts[0m:[93m8[0m:[93m13[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m8[0m     writer: z.string().default('QiuLingYan'),
+[7m [0m [93m            ~[0m
+[96msrc/content.config.ts[0m:[93m7[0m:[93m11[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m7[0m     date: z.coerce.date(),
+[7m [0m [93m          ~[0m
+[96msrc/content.config.ts[0m:[93m6[0m:[93m12[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m6[0m     title: z.string(),
+[7m [0m [93m           ~[0m
+[96msrc/content.config.ts[0m:[93m5[0m:[93m11[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m5[0m   schema: z.object({
+[7m [0m [93m          ~[0m
+[96msrc/content.config.ts[0m:[93m1[0m:[93m28[0m - [93mwarning[0m[90m ts(6385): [0m'z' is deprecated.
+
+[7m1[0m import { defineCollection, z } from 'astro:content';
+[7m [0m [93m                           ~[0m
+
+[96msrc/layouts/BaseLayout.astro[0m:[93m22[0m:[93m18[0m - [91merror[0m[90m ts(2339): [0mProperty 'children' does not exist on type 'Readonly<AstroGlobal<Record<string, any>, AstroComponentFactory, Record<string, string | undefined>>>'.
+
+[7m22[0m     <main>{Astro.children}</main>
+[7m  [0m [91m                 ~~~~~~~~[0m
+
+Result (8 files): 
+- 2 errors
+- 0 warnings
+- 5 hints
+

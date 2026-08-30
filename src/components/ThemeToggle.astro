@@ -1,0 +1,9 @@
+<button class="theme-toggle" type="button" aria-label="切换暗黑模式" title="切换暗黑模式"><span class="sun">☼</span><span class="moon">◐</span></button>
+<script>
+  const button = document.querySelector('.theme-toggle');
+  button?.addEventListener('click', () => {
+    const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    document.documentElement.dataset.theme = next;
+    localStorage.setItem('theme', next);
+  });
+</script>

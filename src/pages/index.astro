@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WritingGuide from '../components/WritingGuide.astro';
+
+const entries = (await getCollection('daily')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const formatDate = (date: Date) => date.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+<BaseLayout title="QiuLingYan 的杂记">
+  <section class="hero"><h1>QiuLingYan <em>的杂记</em></h1><p>喵喵喵...秋凌烟又来说胡话了喵</p></section>
+  <section class="entries"><div class="section-heading"><span>所有记录</span><small>{entries.length} 篇日记</small></div>
+    {entries.length ? <div class="entry-list">{entries.map((entry, index) => <a class="entry-card" href={`${import.meta.env.BASE_URL}daily/${entry.id}/`}><span class="entry-index">{String(index + 1).padStart(2, '0')}</span><div><time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date)}</time><h2>{entry.data.title}</h2><p>由 {entry.data.writer} 记录</p></div><span class="arrow">↗</span></a>)}</div> : <p class="empty">还没有记录，从今天开始吧。</p>}
+  </section>
+  <WritingGuide />
+</BaseLayout>

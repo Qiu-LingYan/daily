@@ -1,0 +1,1 @@
+{"name":"github-daily-blog","type":"module","scripts":{"dev":"astro dev","build":"astro build","preview":"astro preview","check":"astro check"},"dependencies":{"@astrojs/check":"latest","astro":"latest","typescript":"latest","zod":"latest"},"devDependencies":{"@types/node":"^26.4.0"}}

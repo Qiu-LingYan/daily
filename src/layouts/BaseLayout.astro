@@ -1,0 +1,25 @@
+---
+import ThemeToggle from '../components/ThemeToggle.astro';
+import '../styles/global.css';
+
+const { title = 'Daily', description = 'QiuLingYan 的日常记录' } = Astro.props;
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <title>{title} · QiuLingYan 的杂记</title>
+    <script is:inline>
+      const saved = localStorage.getItem('theme');
+      const theme = saved || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.dataset.theme = theme;
+    </script>
+  </head>
+  <body>
+    <header class="site-header"><span aria-hidden="true"></span><ThemeToggle /></header>
+    <main><slot /></main>
+    <footer class="site-footer">Made with love by QiuLingYan.</footer>
+  </body>
+</html>
