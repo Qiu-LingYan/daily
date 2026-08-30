@@ -11,6 +11,10 @@ const { title = 'Daily', description = 'QiuLingYan 的日常记录' } = Astro.pr
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <meta name="description" content={description} />
     <title>{title} · QiuLingYan 的杂记</title>
+    <style is:inline>
+      html, body { background: #f7f7f5; }
+      @media (prefers-color-scheme: dark) { html, body { background: #151515; } }
+    </style>
     <script is:inline>
       (() => {
         const saved = localStorage.getItem('theme');
