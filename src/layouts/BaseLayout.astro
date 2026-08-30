@@ -12,9 +12,12 @@ const { title = 'Daily', description = 'QiuLingYan 的日常记录' } = Astro.pr
     <meta name="description" content={description} />
     <title>{title} · QiuLingYan 的杂记</title>
     <script is:inline>
-      const saved = localStorage.getItem('theme');
-      const theme = saved || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-      document.documentElement.dataset.theme = theme;
+      (() => {
+        const saved = localStorage.getItem('theme');
+        const theme = saved || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.backgroundColor = theme === 'dark' ? '#151515' : '#f7f7f5';
+      })();
     </script>
   </head>
   <body>
