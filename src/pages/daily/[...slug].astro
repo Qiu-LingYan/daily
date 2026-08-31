@@ -7,4 +7,4 @@ const { entry } = Astro.props;
 const { Content } = await render(entry);
 const formatDate = (date: Date) => date.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' });
 ---
-<BaseLayout title={entry.data.title}><article class="post"><a class="back-link" href={import.meta.env.BASE_URL}>← 返回全部记录</a><header class="post-header"><span class="eyebrow">{formatDate(entry.data.date)}</span><h1>{entry.data.title}</h1><p>Written by {entry.data.writer}</p></header><div class="prose"><Content /></div></article></BaseLayout>
+<BaseLayout title={entry.data.title}><article class="post"><a class="back-link" href={import.meta.env.BASE_URL}>← 返回全部记录</a><header class="post-header"><span class="eyebrow">{formatDate(entry.data.date)}</span><h1>{entry.data.title}</h1><p>Written by {entry.data.writer} · 本文已被阅读 <span class="view-count" data-goatcounter-views></span> 次</p></header><div class="prose"><Content /></div></article></BaseLayout>

@@ -3,6 +3,9 @@ import ThemeToggle from '../components/ThemeToggle.astro';
 import '../styles/global.css';
 
 const { title = 'Daily', description = 'QiuLingYan 的日常记录' } = Astro.props;
+
+// GoatCounter 统计：注册 https://www.goatcounter.com 后把下面的 GOATCOUNTER_CODE 换成你的站点代码
+const goatcounterCode = 'GOATCOUNTER_CODE';
 ---
 <!doctype html>
 <html lang="zh-CN">
@@ -23,6 +26,7 @@ const { title = 'Daily', description = 'QiuLingYan 的日常记录' } = Astro.pr
         document.documentElement.style.backgroundColor = theme === 'dark' ? '#151515' : '#f7f7f5';
       })();
     </script>
+    <script is:inline async src="https://gc.zgo.at/count.js" data-goatcounter={`https://${goatcounterCode}.goatcounter.com/count`}></script>
   </head>
   <body>
     <header class="site-header"><span aria-hidden="true"></span><ThemeToggle /></header>
