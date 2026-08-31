@@ -40,8 +40,9 @@ const goatcounterCode = 'qiulingyan';
         const num = wrap.querySelector('.view-count');
         const path = location.pathname + location.search || '/';
         fetch(`https://${goatcounterCode}.goatcounter.com/counter/${encodeURIComponent(path)}.json`)
-          .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
-          .then((d) => { if (d.count !== undefined) num.textContent = d.count; else throw new Error('no count'); })
+          // 无浏览记录时端点返回 404 但 body 仍是合法 JSON（count 为 0），所以不看状态码直接解析
+          .then((r) => r.json())
+          .then((d) => { num.textContent = d.count ?? '0'; })
           .catch(() => { wrap.remove(); });
       })();
     </script>
