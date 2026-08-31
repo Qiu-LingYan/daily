@@ -3,9 +3,6 @@ import ThemeToggle from '../components/ThemeToggle.astro';
 import '../styles/global.css';
 
 const { title = 'Daily', description = 'QiuLingYan 的日常记录' } = Astro.props;
-
-// GoatCounter 统计：注册 https://www.goatcounter.com 后把下面的 GOATCOUNTER_CODE 换成你的站点代码
-const goatcounterCode = 'qiulingyan';
 ---
 <!doctype html>
 <html lang="zh-CN">
@@ -26,25 +23,10 @@ const goatcounterCode = 'qiulingyan';
         document.documentElement.style.backgroundColor = theme === 'dark' ? '#151515' : '#f7f7f5';
       })();
     </script>
-    <script is:inline async src="https://gc.zgo.at/count.js" data-goatcounter={`https://${goatcounterCode}.goatcounter.com/count`}></script>
   </head>
   <body>
     <header class="site-header"><span aria-hidden="true"></span><ThemeToggle /></header>
     <main><slot /></main>
     <footer class="site-footer">Made with love by QiuLingYan.</footer>
-    <script is:inline define:vars={{ goatcounterCode }}>
-      // 阅读量：从 GoatCounter 的公开计数端点取当前路径的浏览量，填进文章页头部
-      (() => {
-        const wrap = document.querySelector('.post-views');
-        if (!wrap) return;
-        const num = wrap.querySelector('.view-count');
-        const path = location.pathname + location.search || '/';
-        fetch(`https://${goatcounterCode}.goatcounter.com/counter/${encodeURIComponent(path)}.json`)
-          // 无浏览记录时端点返回 404 但 body 仍是合法 JSON（count 为 0），所以不看状态码直接解析
-          .then((r) => r.json())
-          .then((d) => { num.textContent = d.count ?? '0'; })
-          .catch(() => { wrap.remove(); });
-      })();
-    </script>
   </body>
 </html>
