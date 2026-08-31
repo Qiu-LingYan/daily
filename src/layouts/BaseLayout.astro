@@ -27,6 +27,6 @@ const { title = 'Daily', description = 'QiuLingYan 的日常记录' } = Astro.pr
   <body>
     <header class="site-header"><span aria-hidden="true"></span><ThemeToggle /></header>
     <main><slot /></main>
-    <footer class="site-footer">Made with love by QiuLingYan.</footer>
+    <footer class="site-footer">Made with love by QiuLingYan.<slot name="footer" /></footer>
   </body>
 </html>

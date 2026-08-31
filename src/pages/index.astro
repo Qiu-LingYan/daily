@@ -12,4 +12,5 @@ const formatDate = (date: Date) => date.toLocaleDateString('zh-CN', { year: 'num
     {entries.length ? <div class="entry-list">{entries.map((entry, index) => <a class="entry-card" href={`${import.meta.env.BASE_URL}daily/${entry.id}/`}><span class="entry-index">{String(index + 1).padStart(2, '0')}</span><div><time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date)}</time><h2>{entry.data.title}</h2><p>由 {entry.data.writer} 记录</p></div><span class="arrow">↗</span></a>)}</div> : <p class="empty">还没有记录，从今天开始吧。</p>}
   </section>
   <WritingGuide />
+  <img class="moe-counter moe-counter-footer" slot="footer" src="https://count.getloli.com/get/@qiulingyan-blog?theme=moebooru" alt="本站总访问量" loading="lazy" />
 </BaseLayout>
