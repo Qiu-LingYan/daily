@@ -1,5 +1,4 @@
 ---
-import ThemeToggle from '../components/ThemeToggle.astro';
 import '../styles/global.css';
 
 const { title = 'Daily', description = 'QiuLingYan 的日常记录' } = Astro.props;
@@ -12,20 +11,18 @@ const { title = 'Daily', description = 'QiuLingYan 的日常记录' } = Astro.pr
     <meta name="description" content={description} />
     <title>{title} · QiuLingYan 的杂记</title>
     <style is:inline>
-      html { background: #f7f7f5; }
-      @media (prefers-color-scheme: dark) { html { background: #151515; } }
+      html { background: #151515; }
     </style>
     <script is:inline>
       (() => {
-        const saved = localStorage.getItem('theme');
-        const theme = saved || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        const theme = 'dark';
         document.documentElement.dataset.theme = theme;
         document.documentElement.style.backgroundColor = theme === 'dark' ? '#151515' : '#f7f7f5';
       })();
     </script>
   </head>
   <body>
-    <header class="site-header"><span aria-hidden="true"></span><ThemeToggle /></header>
+    <header class="site-header"><span aria-hidden="true"></span></header>
     <main><slot /></main>
     <footer class="site-footer">Made with love by QiuLingYan.<slot name="footer" /></footer>
   </body>
